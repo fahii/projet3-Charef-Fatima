@@ -3,20 +3,24 @@
 
 *,
 ::before,
-::after{
+::after {
     box-sizing: border-box;
+    
 }
-
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+   
+}
 header{
     font-family: "Shrikhand", cursive;
     text-align: center;
-    font-weight: 400;
-    margin: 0px            
-        
+    font-weight: 400;   
+    border: 1px;       
+    box-shadow: 1px 2px 2px 1px grey; 
+      
 }
-.body{
-    font-family: "Roboto", sans-serif;
-   
+
+main .ville{
+    text-align: center;
 }
-.main{
-    text-align: center}
