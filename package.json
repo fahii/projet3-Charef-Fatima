@@ -1,0 +1,16 @@
+{
+  "name": "node-sass",
+  "version": "0.1.0",
+  "description": "premier projet avec sass",
+  "main": "main.js",
+  "scripts": {
+    "compile": "node-sass scss/main.scss dist/css/style.css",
+    "watch": "node-sass scss/main.scss dist/css/style.css -w",
+    "compressed": "node-sass scss/main.scss dist/css/style.css -w --output-style=compressed"
+  },
+  "author": "Charef Fatima",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
