@@ -152,8 +152,6 @@ h5{
 }
 
 
-
-
 .choix{
     background-color: #f6f6f6;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
     border-radius: 10px;
@@ -253,6 +251,7 @@ a{
 
 .icone-coeur{
     margin-left: 300px;
+    font-size:medium;
 
 }
 .titre-resto{
@@ -262,7 +261,7 @@ a{
     font-size: 10px;
     font-family: "Shrikhand", cursive;  
 }
-.debut-entree{
+.debut-entree{ 
     text-align: left;
     margin-top: 22px;
     margin-left: 22px;
@@ -287,18 +286,23 @@ a{
 }
 
 .debut-menu{
-    font-size: 12px;
+    padding-top: 5px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 .descri-menu{
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 6px;
 }
 
 .prix-droite{
     display: flex;
-    
+    justify-content: flex-end;
+    margin-bottom: 15px;
+         
 }
 
 .prix{
-    margin-left: 40%;
+    margin-left: 0%;
 }
