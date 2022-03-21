@@ -23,13 +23,13 @@ header{
                
 }
 
-.container-logo{
+.container_logo{
     margin: auto;
     text-align: center;
 
 }
 
-.container-icone-logo{
+.container_icone_logo{
     display: flex;
     align-items: center;
     
@@ -55,7 +55,7 @@ header{
     
     
 }
-.container-position{
+.container_position{
     display: flex;
     align-items: center;
     text-align: center;
@@ -65,13 +65,13 @@ main {
     text-align: center;
           
 } 
-.div-reserver-menu{
+.div_reserver_menu{
     margin-top: 10%;
    
   
 }
 
-.reserver-menu{
+.reserver_menu{
     font-size: 12px;
     line-height: 35px;
     margin-bottom: 6%;
@@ -108,7 +108,7 @@ button {
     transform: translateY(4px);
   }
 
-.description{
+.menu{
     box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
     background-color: white;
     border-radius: 14px;
@@ -118,7 +118,7 @@ button {
     text-align: justify;
         
 }
-.name-city{
+.name_city{
     font-size: 16px;
     margin-left: 1px;
 }
@@ -127,7 +127,7 @@ h5{
     margin-left: 6px;
 }
 
-.carte-entiere{
+.carte_entiere{
     background-color: white
     
 }
@@ -187,16 +187,16 @@ h5{
          
 }
 
-.blanc-gris{
+.blanc_gris{
     background: linear-gradient(white, rgb(245, 245, 245));
     padding-bottom: 50px;
 }
 
-.reserver-menu{
+.reserver_menu{
     font-size: 30px;
 }
 
-.card-resto{
+.card_resto{
     width: 100%;
     box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
     border-radius: 14px;
@@ -206,14 +206,14 @@ h5{
             
 }
 
-.card-nom{
+.card_nom{
     margin-left: 10px;
     line-height: 20px;
     margin-top: 10px;
     color: black;
 }
 
-.image-resto{
+.image_resto{
     width: 100%;
     height: 140px;  
     border-radius: 8px 8px 0px 0px;  
@@ -236,7 +236,7 @@ h5{
     
 }
 
-.point{
+.condition_point{
     list-style: none;
     color: #f6f6f6;
     line-height: 20px;
@@ -249,32 +249,32 @@ a{
    text-decoration: none;
 }
 
-.icone-coeur{
+.icone_coeur{
     margin-left: 300px;
     font-size:medium;
 
 }
-.titre-resto{
+.titre_resto{
     text-align: left;
     margin-top: 26px;
     margin-left: 22px;
     font-size: 10px;
     font-family: "Shrikhand", cursive;  
 }
-.debut-entree{ 
+.debut_entree{ 
     text-align: left;
     margin-top: 22px;
     margin-left: 22px;
     opacity: 60%;
 }   
-.debut-plat{
+.debut_plat{
     text-align: left;
     margin-top: 22px;
     margin-left: 22px;
     opacity: 60%;
     
 }
-.debut-dessert{
+.debut_dessert{
     text-align: left;
     margin-top: 22px;
     margin-left: 22px;
@@ -285,24 +285,30 @@ a{
     margin-bottom: 70px;
 }
 
-.debut-menu{
+.titre_menu{
     padding-top: 5px;
     font-size: 18px;
     margin-bottom: 15px;
     margin-top: 10px;
 }
-.descri-menu{
+.menu_description{
     font-size: 14px;
     margin-left: 6px;
 }
 
-.prix-droite{
+.menu_prix{
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 15px;
+       
          
 }
 
-.prix{
+.menu_description_prix{
     margin-left: 0%;
+}
+
+.icone_fourchette{
+    box-sizing: border-box;
+    display: inline;
+   
 }
