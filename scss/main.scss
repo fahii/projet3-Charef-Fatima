@@ -41,12 +41,15 @@ header{
 }
     
 .ville{
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    text-align: center;
     background-color: whitesmoke;
     padding: 20px;
+}
 
+.icone{
+    padding-right: 20px;
 }
 
 .paris{
@@ -111,11 +114,13 @@ button {
 .menu{
     box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
     background-color: white;
-    border-radius: 14px;
+    border-radius: 10px;
     width: 90%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
-    text-align: justify;
+    text-align: initial;
+    padding-top: 10px;
+    padding-bottom: 10px;
         
 }
 .name_city{
@@ -135,8 +140,8 @@ h5{
 
 .fonction {
     text-align: left;
-    font-size: 18px;
-    padding: 2rem 0rem 1rem 1rem;
+    font-size: 16px;
+    padding: 2rem 6rem 1rem 1rem;
 }
 .chiffre{
     font-size: 18px;
@@ -151,10 +156,13 @@ h5{
     color: white;
 }
 
+.icone_choix{
+    opacity: 70%;
+}
 
 .choix{
     background-color: #f6f6f6;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 3px 3px 3px 3px gainsboro;
     font-size: 20px;   
     margin-top: 14px;
@@ -170,13 +178,17 @@ h5{
     
 }
 .choix3{
-    
     font-size: 14px;
     font-weight: bold;
-    
-            
+                
 }
-.resto{
+
+h3{
+    margin-left: 1rem;
+}
+  
+    
+.containers_resto{
     text-align: left;
     font-size: 16px;
     padding: 5rem 1rem 1rem 1rem;
@@ -197,19 +209,20 @@ h5{
 }
 
 .card_resto{
-    width: 100%;
+    width: 90%;
     box-shadow: 2px 2px 2px 2px rgb(211, 211, 211);
     border-radius: 14px;
     position: center;
     margin-top: 1rem;
     padding-bottom: 14px;
-            
+    margin-left: 12px;     
 }
 
 .card_nom{
     margin-left: 10px;
-    line-height: 20px;
-    margin-top: 10px;
+    line-height: 1px;
+    margin-top: 15px;
+    margin-bottom: 2px;
     color: black;
 }
 
@@ -228,6 +241,7 @@ h5{
     margin-top: 6%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+
   
 }
 
@@ -250,8 +264,10 @@ a{
 }
 
 .icone_coeur{
-    margin-left: 300px;
-    font-size:medium;
+    margin-left: 85%;
+    font-size: x-large;
+    opacity: 60%;
+   
 
 }
 .titre_resto{
@@ -292,7 +308,7 @@ a{
     margin-top: 10px;
 }
 .menu_description{
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 6px;
 }
 
@@ -304,11 +320,7 @@ a{
 }
 
 .menu_description_prix{
-    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.icone_fourchette{
-    box-sizing: border-box;
-    display: inline;
-   
-}
