@@ -36,7 +36,7 @@ header {
   padding: 20px; }
 
 .icone {
-  padding-right: 20px; }
+  padding-right: 10px; }
 
 .paris {
   opacity: 60%;
@@ -214,7 +214,15 @@ a {
   font-size: x-large;
   opacity: 60%; }
 
+.icone_coeur_restau {
+  font-size: x-large;
+  opacity: 60%;
+  margin-right: 25px; }
+
 .titre_resto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: left;
   margin-top: 26px;
   margin-left: 22px;
@@ -260,3 +268,7 @@ a {
 .menu_description_prix {
   display: flex;
   justify-content: space-between; }
+
+.image_cart {
+  position: absolute;
+  z-index: 1; }
