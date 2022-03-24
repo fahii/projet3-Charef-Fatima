@@ -51,10 +51,10 @@ main {
   text-align: center; }
 
 .div_reserver_menu {
-  margin-top: 10%; }
+  margin-top: 10%;
+  font-size: 30px; }
 
 .reserver_menu {
-  font-size: 12px;
   line-height: 35px;
   margin-bottom: 6%; }
 
@@ -63,7 +63,7 @@ main {
   font-size: 16px;
   margin-bottom: 6%; }
 
-button {
+.button_top--rose {
   font-size: 12px;
   color: azure;
   font-family: "Roboto" 300;
@@ -86,7 +86,7 @@ button:active {
   transform: translateY(4px); }
 
 .menu {
-  box-shadow: 2px 2px 2px 2px #aaaaaa;
+  box-shadow: 1px 1px 1px 1px #eee;
   background-color: white;
   border-radius: 10px;
   width: 90%;
@@ -105,12 +105,17 @@ h5 {
   margin-left: 6px; }
 
 .carte_entiere {
-  background-color: white; }
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: -20%;
+  border-radius: 2rem 2rem 0rem 0rem; }
 
 .fonction {
   text-align: left;
   font-size: 16px;
-  padding: 2rem 6rem 1rem 1rem; }
+  padding: 2rem 6rem 1rem 2rem; }
 
 .chiffre {
   font-size: 18px;
@@ -156,7 +161,8 @@ h3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: -8%; }
+  margin-top: -8%;
+  margin-left: 10px; }
 
 .blanc_gris {
   background: linear-gradient(white, whitesmoke);
@@ -166,13 +172,12 @@ h3 {
   font-size: 30px; }
 
 .card_resto {
-  width: 90%;
-  box-shadow: 2px 2px 2px 2px lightgray;
+  box-shadow: 2px 2px 2px 2px #f6f6f6;
   border-radius: 14px;
   position: center;
   margin-top: 1rem;
   padding-bottom: 14px;
-  margin-left: 12px; }
+  margin-left: 10px; }
 
 .card_nom {
   margin-left: 10px;
@@ -191,11 +196,12 @@ h3 {
 .titre {
   font-size: 14px;
   font-family: "Shrikhand", cursive;
-  margin-top: 6%;
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 4%; }
 
 .condition {
+  padding-top: 10px;
   background-color: #2e2d2d; }
 
 .condition_point {
@@ -203,11 +209,15 @@ h3 {
   color: #f6f6f6;
   line-height: 20px;
   font-size: 12px;
-  padding-bottom: 1rem;
+  padding-bottom: 6%;
   margin-left: 0%; }
 
 a {
   text-decoration: none; }
+
+.icone_fleche {
+  margin-left: 22px;
+  color: black; }
 
 .icone_coeur {
   margin-left: 85%;
@@ -227,35 +237,43 @@ a {
   margin-top: 26px;
   margin-left: 22px;
   font-size: 10px;
-  font-family: "Shrikhand", cursive; }
+  font-family: "Shrikhand", cursive;
+  padding-top: 20px; }
 
 .debut_entree {
+  border-bottom: 4px solid #99E2D0;
   text-align: left;
-  margin-top: 22px;
+  margin-top: 30px;
   margin-left: 22px;
-  opacity: 60%; }
+  opacity: 60%;
+  width: 11%; }
 
 .debut_plat {
+  border-bottom: 4px solid #99E2D0;
   text-align: left;
-  margin-top: 22px;
+  margin-top: 30px;
   margin-left: 22px;
-  opacity: 60%; }
+  opacity: 60%;
+  width: 10%; }
 
 .debut_dessert {
+  border-bottom: 4px solid #99E2D0;
   text-align: left;
-  margin-top: 22px;
+  margin-top: 30px;
   margin-left: 22px;
-  opacity: 60%; }
+  opacity: 60%;
+  width: 12%; }
 
 .transition1 {
   margin-top: 40px;
-  margin-bottom: 70px; }
+  margin-bottom: 0px; }
 
 .titre_menu {
-  padding-top: 5px;
-  font-size: 18px;
-  margin-bottom: 15px;
-  margin-top: 10px; }
+  padding-top: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  margin-top: 2px; }
 
 .menu_description {
   font-size: 12px;
@@ -263,7 +281,9 @@ a {
 
 .menu_prix {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  font-size: 12px;
+  margin-right: 18px; }
 
 .menu_description_prix {
   display: flex;
@@ -272,3 +292,29 @@ a {
 .image_cart {
   position: absolute;
   z-index: 1; }
+
+.transition_button--rose {
+  font-size: 12px;
+  color: azure;
+  font-family: "Roboto" 300;
+  background: linear-gradient(#FF97DA, #9356DC);
+  border-radius: 10rem;
+  margin-top: 0px;
+  margin-bottom: 45px;
+  box-shadow: 2px 2px 2px 2px;
+  border: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  cursor: pointer; }
+
+button:hover {
+  background: #eb7af5; }
+
+button:active {
+  box-shadow: 2px 2px 2px 2px;
+  transform: translateY(4px); }
+
+.mail_contact {
+  text-decoration: #f6f6f6; }
