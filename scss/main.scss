@@ -128,6 +128,7 @@ main {
     font-size: 16px;
     margin-left: 1px;
 }
+
 h5{
     font-size: 12px;
     margin-left: 6px;
@@ -215,7 +216,6 @@ h3{
 }
 
 .card_resto{
-   
     box-shadow: 2px 2px 2px 2px #f6f6f6;
     border-radius: 14px;
     position: center;
@@ -385,8 +385,192 @@ a{
     box-shadow: 2px 2px 2px 2px;
     transform: translateY(4px);
   }
-  
+
   .mail_contact{
       text-decoration: #f6f6f6;
   }
 
+
+
+
+
+  @media only screen and (max-width: 800px) and (min-width: 500px){
+
+    .icone{
+        padding-right: 10px;
+        font-size: 22px;
+    }
+    .button_top--rose{
+        font-size: 20px;
+    }
+    .paris{
+        opacity: 60%;
+        font-size: 22px;
+                
+    }
+    .div_reserver_menu{
+        margin-top: 10%;
+        font-size: 36px;
+      
+    }
+    
+    .reserver_menu{
+        line-height: 35px;
+        margin-bottom: 6%;
+        font-size: 36px;
+      
+      
+    }
+    .exceptions{
+        opacity: 60%;
+        font-size: 22px;
+        margin-bottom: 6%;
+          
+    }
+    .fonction{
+        font-size: 22px;
+}
+    .choix3{
+        font-size: 16px;
+        font-weight: bold;
+                
+} 
+    .containers_resto{  
+        font-size: 22px;
+}
+    .name_city{
+        font-size: 22px;
+        margin-left: 1px;
+}
+    .titre{
+        font-size: 20px;
+    }
+
+    .condition_point{
+        font-size: 16px;
+    }
+
+    .titre_resto{
+        font-size: 16px;
+    }
+    .debut_entree{
+        font-size: 20px;
+    }
+
+    .debut_plat{
+        font-size: 20px;
+    }
+
+    .debut_dessert{
+        font-size: 20px;
+
+    }
+    .menu{
+        width: auto;
+    }
+    .menu_titre{
+        font-size: 22px;
+    }
+    .menu_description{
+        font-size: 16px;
+    }
+    .menu_prix{
+        font-size: 16px;
+    }
+    .transition_button--rose{
+        font-size: 20px;
+    }
+    
+
+  }
+
+
+
+
+  
+  @media only screen and (min-width: 801px){
+
+    .icone{
+        padding-right: 10px;
+        font-size: 28px;
+    }
+    .button_top--rose{
+        font-size: 26px;
+    }
+    .paris{
+        opacity: 60%;
+        font-size: 28px;
+                
+    }
+    .div_reserver_menu{
+        margin-top: 10%;
+        font-size: 42px;
+      
+    }
+    
+    .reserver_menu{
+        line-height: 35px;
+        margin-bottom: 6%;
+        font-size: 42px;
+    }
+    .exceptions{
+        opacity: 60%;
+        font-size: 28px;
+        margin-bottom: 6%;
+          
+    }
+    .fonction{
+        font-size: 28px;
+}
+    
+    .choix3{
+        font-size: 18px;
+        font-weight: bold;
+                
+}
+    .containers_resto{
+        font-size: 28px;
+    }
+
+    .name_city{
+        font-size: 22px;
+        margin-left: 1px;
+}
+    .titre{
+        font-size: 26px;
+}
+    .condition_point{
+        font-size: 16px;
+}
+    .titre_resto{
+        font-size: 22px;
+        
+}
+    .debut_entree{
+        font-size: 26px;
+    }
+
+    .debut_plat{
+        font-size: 26px;
+    }
+
+    .debut_dessert{
+        font-size: 26px;
+
+    }
+    .menu{
+        width: auto;
+    }
+    .menu_titre{
+        font-size: 26px;
+    }
+    .menu_description{
+        font-size: 20px;
+    }
+    .menu_prix{
+        font-size: 20px;
+    }
+    .transition_button--rose{
+        font-size: 26px;
+    }
+  }
