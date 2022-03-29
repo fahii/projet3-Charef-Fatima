@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Shrikhand & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import "./Utils/variables";
+
 
 *,
 ::before,
@@ -530,6 +532,7 @@ a{
 }
     .containers_resto{
         font-size: 28px;
+        flex-direction: row;
     }
 
     .name_city{
@@ -572,5 +575,20 @@ a{
     }
     .transition_button--rose{
         font-size: 26px;
+    }
+
+    .card_resto{
+        width: 100%;
+    }
+
+    .card_nom{
+        line-height: 15px;
+    }
+
+    #ancre_restaurants{
+        text-align: left;
+        font-size: 16px;
+        padding: 2rem 6rem 1rem 2rem;
+        font-size: 28px;
     }
   }

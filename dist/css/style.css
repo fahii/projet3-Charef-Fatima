@@ -398,7 +398,8 @@ button:active {
     font-size: 18px;
     font-weight: bold; }
   .containers_resto {
-    font-size: 28px; }
+    font-size: 28px;
+    flex-direction: row; }
   .name_city {
     font-size: 22px;
     margin-left: 1px; }
@@ -423,4 +424,13 @@ button:active {
   .menu_prix {
     font-size: 20px; }
   .transition_button--rose {
-    font-size: 26px; } }
+    font-size: 26px; }
+  .card_resto {
+    width: 100%; }
+  .card_nom {
+    line-height: 15px; }
+  #ancre_restaurants {
+    text-align: left;
+    font-size: 16px;
+    padding: 2rem 6rem 1rem 2rem;
+    font-size: 28px; } }
