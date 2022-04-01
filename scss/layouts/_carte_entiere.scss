@@ -1,0 +1,112 @@
+.menu{
+    box-shadow: 3px 3px 3px 3px #eee;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 12px;
+    margin-left: 20px;
+    text-align: initial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        
+}
+.name_city{
+    font-size: 16px;
+    margin-left: 1px;
+}
+h5{
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.carte_entiere{
+    background-color: #f5f5f5;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -20%;
+    border-radius: 2rem 2rem 0rem 0rem
+}.titre_resto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-top: 26px;
+    margin-left: 22px;
+    font-size: 10px;
+    font-family: "Shrikhand", cursive; 
+    padding-top: 20px; 
+}
+.debut_entree{ 
+    border-bottom: 4px solid #99E2D0;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 22px;
+    opacity: 60%;
+    width: 11%;
+}   
+.debut_plat{
+    border-bottom: 4px solid #99E2D0;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 22px;
+    opacity: 60%;
+    width: 10%;
+    
+}
+.debut_dessert{
+    border-bottom: 4px solid #99E2D0;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 22px;
+    opacity: 60%;
+    width: 12%;
+}
+.transition1{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.titre_menu{
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    margin-top: 2px;
+    
+}
+.menu_description{
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.menu_prix{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-right: 18px;
+       
+         
+}
+
+.menu_description_prix{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_cart{
+    position: absolute;
+    z-index: 1;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+

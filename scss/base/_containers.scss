@@ -1,0 +1,58 @@
+.container_logo{
+    margin: auto;
+    text-align: center;
+
+}
+
+.container_icone_logo{
+    display: flex;
+    align-items: center;
+    
+}.logo{
+    margin: 15px;
+    
+}
+    
+.ville{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.icone{
+    padding-right: 10px;
+}
+
+.paris{
+    opacity: 60%;
+    font-size: 16px;
+    
+    
+}
+.container_position{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+main {
+    text-align: center;
+          
+} 
+.div_reserver_menu{
+    margin-top: 10%;
+    font-size: 30px;
+  
+}
+
+.reserver_menu{
+    line-height: 35px;
+    margin-bottom: 6%;
+}
+.exceptions{
+    opacity: 60%;
+    font-size: 16px;
+    margin-bottom: 6%;
+      
+}

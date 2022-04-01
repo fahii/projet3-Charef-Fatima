@@ -1,0 +1,52 @@
+.button_top--rose {
+    font-size: 12px;
+    color: azure;
+    font-family: "Roboto" 300;
+    background: linear-gradient(#FF97DA, #9356DC);
+    border-radius: 10rem;
+    margin-top: 5px;   
+    box-shadow: 2px 2px 2px 2px;
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background: #eb7af5
+    }
+  
+  button:active {
+    box-shadow: 2px 2px 2px 2px;
+    transform: translateY(4px);
+  }
+  .transition_button--rose {
+    font-size: 12px;
+    color: azure;
+    font-family: "Roboto" 300;
+    background: linear-gradient(#FF97DA, #9356DC);
+    border-radius: 10rem;
+    margin-top: 0px; 
+    margin-bottom: 45px;  
+    box-shadow: 2px 2px 2px 2px;
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    cursor: pointer;
+  
+   
+  }
+  
+  button:hover {
+      background: #eb7af5
+    }
+  
+  button:active {
+    box-shadow: 2px 2px 2px 2px;
+    transform: translateY(4px);
+  }

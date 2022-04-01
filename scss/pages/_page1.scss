@@ -1,0 +1,120 @@
+
+
+
+
+.fonction {
+    text-align: left;
+    font-size: 16px;
+    padding: 2rem 6rem 1rem 2rem;
+}
+.chiffre{
+    font-size: 18px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #9356DC;
+    padding-top: 5px;
+    position: relative;
+    right: 10px;
+    color: white;
+}
+
+.icone_choix{
+    opacity: 70%;
+}
+
+.choix{
+    background-color: #f6f6f6;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px gainsboro;
+    font-size: 20px;   
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-bottom: 6%;
+    align-items: center;
+    
+    
+}
+.choix3{
+    font-size: 14px;
+    font-weight: bold;
+                
+}
+
+h3{
+    margin-right: 41%;
+    margin-top:  23%;
+}
+  
+    
+.containers_resto{
+    text-align: left;
+    font-size: 16px;
+    padding: 5rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -25%;
+    margin-left: 10px;
+         
+}
+.blanc_gris{
+    background: linear-gradient(white, rgb(245, 245, 245));
+    padding-bottom: 50px;
+}
+
+.reserver_menu{
+    font-size: 30px;
+}
+
+  
+.card_resto{
+    box-shadow: 2px 2px 2px 2px #f6f6f6;
+    border-radius: 14px;
+    position: center;
+    margin-top: 1rem;
+    padding-bottom: 14px;
+    margin-left: 10px;     
+}
+
+.card_nom{
+    margin-left: 10px;
+    line-height: 1px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    color: black;
+}
+
+.image_resto{
+    width: 100%;
+    height: 140px;  
+    border-radius: 8px 8px 0px 0px;  
+    position: center;
+    object-fit: cover;
+    position: relative;
+    
+      
+}
+.new{
+    
+    background-color: #38e7bb;
+    color: #278827;
+    font-weight: 400;
+    position: absolute;
+    z-index: 1;
+    margin-left: 67%;
+    padding: 1%;
+    margin-top: 4%;
+    font-size: 8px;
+    border-radius: 3px;
+    
+   
+    
+
+}
