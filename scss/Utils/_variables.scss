@@ -23,6 +23,8 @@
     box-shadow: 2px 2px 2px 2px;
     transform: translateY(4px);
   }
+
+  
   .transition_button--rose {
     font-size: 12px;
     color: azure;
@@ -50,3 +52,20 @@
     box-shadow: 2px 2px 2px 2px;
     transform: translateY(4px);
   }
+ 
+  .icone_coeur{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: black;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 450ms;
+    overflow: hidden; 
+    position: relative;
+  }
+
+  .icone_coeur:hover{
+      transform: translate(50%) scale(1);
+      background: -webkit-linear-gradient(#ffabc1, #356ad2);
+
+    }

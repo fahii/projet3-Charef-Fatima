@@ -45,6 +45,20 @@ button:active {
   box-shadow: 2px 2px 2px 2px;
   transform: translateY(4px); }
 
+.icone_coeur {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: black;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 450ms;
+  overflow: hidden;
+  position: relative; }
+
+.icone_coeur:hover {
+  transform: translate(50%) scale(1);
+  background: -webkit-linear-gradient(#ffabc1, #356ad2); }
+
 header {
   font-family: "Shrikhand", cursive;
   font-weight: 400;
@@ -177,10 +191,12 @@ main {
 @media only screen and (min-width: 801px) {
   ol {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%; }
   .icone {
     padding-right: 10px;
-    font-size: 28px; }
+    font-size: 18px; }
   .button_top--rose {
     font-size: 26px;
     padding-left: 5%;
@@ -234,7 +250,7 @@ main {
     font-size: 26px;
     width: 6%; }
   .menu {
-    width: auto; }
+    width: 100%; }
   .menu_titre {
     font-size: 26px; }
   .menu_description {
@@ -381,8 +397,7 @@ h5 {
   margin-left: 85%;
   font-size: x-large;
   opacity: 60%;
-  cursor: pointer;
-  background-color: #eb7af5; }
+  cursor: pointer; }
 
 .icone_coeur_restau {
   font-size: x-large;
@@ -391,7 +406,8 @@ h5 {
 
 .fonction {
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
+  margin-left: 10px;
   padding: 2rem 6rem 1rem 2rem; }
 
 .chiffre {
@@ -422,15 +438,17 @@ h5 {
   padding-right: 20px;
   margin-right: 20px;
   margin-bottom: 6%;
-  align-items: center; }
+  align-items: center;
+  width: 35%; }
 
 .choix3 {
   font-size: 14px;
   font-weight: bold; }
 
 h3 {
-  margin-right: 41%;
-  margin-top: 23%; }
+  margin-top: 23%;
+  margin-left: 17px;
+  font-size: 20px; }
 
 .containers_resto {
   text-align: left;
@@ -478,7 +496,7 @@ h3 {
   font-weight: 400;
   position: absolute;
   z-index: 1;
-  margin-left: 67%;
+  left: 70%;
   padding: 1%;
   margin-top: 4%;
   font-size: 8px;

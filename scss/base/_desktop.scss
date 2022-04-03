@@ -1,12 +1,14 @@
 @media only screen and (min-width: 801px){
     ol{
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         width: 100%;
     }
     
     .icone{
         padding-right: 10px;
-        font-size: 28px;
+        font-size: 18px;
     }
     .button_top--rose{
         font-size: 26px;
@@ -47,6 +49,7 @@
         font-weight: bold;
                 
 }
+ 
 
     .image_resto{
         box-shadow: 2px 2px 2px 2px;
@@ -91,7 +94,7 @@
 
     }
     .menu{
-        width: auto;
+        width: 100%;
     }
     .menu_titre{
         font-size: 26px;
