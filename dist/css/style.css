@@ -56,7 +56,7 @@ button:active {
   position: relative; }
 
 .icone_coeur:hover {
-  transform: translate(50%) scale(1);
+  transform: scale(1) translate(50%);
   background: -webkit-linear-gradient(#ffabc1, #356ad2); }
 
 header {
@@ -95,7 +95,8 @@ body {
   padding: 20px; }
 
 .icone {
-  padding-right: 10px; }
+  padding-right: 10px;
+  font-size: 26px; }
 
 .paris {
   opacity: 60%;
@@ -194,6 +195,9 @@ main {
     flex-direction: row;
     justify-content: space-between;
     width: 100%; }
+  .aaa {
+    display: flex;
+    justify-content: space-between; }
   .icone {
     padding-right: 10px;
     font-size: 18px; }
@@ -252,7 +256,7 @@ main {
   .menu {
     width: 100%; }
   .menu_titre {
-    font-size: 26px; }
+    font-size: 22px; }
   .menu_description {
     font-size: 20px; }
   .menu_prix {
@@ -407,7 +411,7 @@ h5 {
 .fonction {
   text-align: left;
   font-size: 18px;
-  margin-left: 10px;
+  margin-left: 16px;
   padding: 2rem 6rem 1rem 2rem; }
 
 .chiffre {
@@ -439,7 +443,7 @@ h5 {
   margin-right: 20px;
   margin-bottom: 6%;
   align-items: center;
-  width: 35%; }
+  width: 96%; }
 
 .choix3 {
   font-size: 14px;
@@ -447,7 +451,7 @@ h5 {
 
 h3 {
   margin-top: 23%;
-  margin-left: 17px;
+  margin-left: 0px;
   font-size: 20px; }
 
 .containers_resto {
@@ -473,7 +477,7 @@ h3 {
   position: center;
   margin-top: 1rem;
   padding-bottom: 14px;
-  margin-left: 10px; }
+  margin-left: 0px; }
 
 .card_nom {
   margin-left: 10px;
@@ -501,3 +505,6 @@ h3 {
   margin-top: 4%;
   font-size: 8px;
   border-radius: 3px; }
+
+.aaa {
+  animation: 600ms ease 0ms 1; }

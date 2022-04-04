@@ -5,6 +5,11 @@
         justify-content: space-between;
         width: 100%;
     }
+
+    .aaa{
+        display: flex;
+        justify-content: space-between;
+    }
     
     .icone{
         padding-right: 10px;
@@ -97,7 +102,8 @@
         width: 100%;
     }
     .menu_titre{
-        font-size: 26px;
+        font-size: 22px;
+        
     }
     .menu_description{
         font-size: 20px;
