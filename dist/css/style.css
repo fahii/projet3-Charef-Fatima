@@ -46,18 +46,48 @@ button:active {
   transform: translateY(4px); }
 
 .icone_coeur {
+  background-color: black;
   background-clip: text;
   -webkit-background-clip: text;
-  color: black;
-  opacity: 1;
   cursor: pointer;
-  transition: all 450ms;
+  color: transparent;
+  opacity: 0;
+  transition: all 450ms ease-in-out;
   overflow: hidden;
+  transform-origin: 100%;
   position: relative; }
 
 .icone_coeur:hover {
-  transform: scale(1) translate(50%);
-  background: -webkit-linear-gradient(#ffabc1, #356ad2); }
+  font-weight: 900;
+  opacity: 1;
+  transform: scaleX(0, 8);
+  background-image: linear-gradient(#FF97DA, #9356DC); }
+
+.icone_coeur_restau {
+  background-color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  cursor: pointer;
+  color: transparent;
+  opacity: 0;
+  transition: all 450ms ease-in-out;
+  overflow: hidden;
+  transform-origin: 100%;
+  position: relative; }
+
+.icone_coeur_restau:hover {
+  font-weight: 900;
+  opacity: 1;
+  transform: scaleX(0, 8);
+  background-image: linear-gradient(#FF97DA, #9356DC); }
+
+.ancre_Choix:hover {
+  background-color: linear-gradient(#FF97DA, #9356DC);
+  cursor: pointer; }
+
+.ancre_Choix:active {
+  box-shadow: 2px 2px 2px 2px;
+  transform: translateY(3px); }
 
 header {
   font-family: "Shrikhand", cursive;
@@ -94,9 +124,9 @@ body {
   background-color: whitesmoke;
   padding: 20px; }
 
-.icone {
+.icone_position {
   padding-right: 10px;
-  font-size: 26px; }
+  font-size: 18px; }
 
 .paris {
   opacity: 60%;
@@ -201,6 +231,8 @@ main {
   .icone {
     padding-right: 10px;
     font-size: 18px; }
+  .icone_position {
+    font-size: 24px; }
   .button_top--rose {
     font-size: 26px;
     padding-left: 5%;
@@ -222,8 +254,8 @@ main {
     font-size: 28px;
     margin-bottom: 6%; }
   .fonction {
-    font-size: 28px;
-    margin-top: -28px; }
+    font-size: 24px;
+    padding: 0%; }
   .choix3 {
     font-size: 18px;
     font-weight: bold; }
@@ -231,8 +263,10 @@ main {
     box-shadow: 2px 2px 2px 2px;
     color: #f6f6f6; }
   .containers_resto {
-    font-size: 28px;
-    flex-wrap: wrap; }
+    font-size: 28px; }
+  .quatre_cartes {
+    display: flex;
+    justify-content: space-around; }
   h4 {
     font-size: 18px; }
   .name_city {
@@ -256,11 +290,11 @@ main {
   .menu {
     width: 100%; }
   .menu_titre {
-    font-size: 22px; }
+    font-size: 16px; }
   .menu_description {
-    font-size: 20px; }
+    font-size: 14px; }
   .menu_prix {
-    font-size: 20px; }
+    font-size: 14px; }
   .transition_button--rose {
     font-size: 26px;
     padding-left: 5%;
@@ -268,14 +302,29 @@ main {
     padding-top: 2%;
     padding-bottom: 2%; }
   .card_resto {
-    width: 100%; }
+    width: 45%; }
   .card_nom {
     line-height: 15px; }
   #ancre_restaurants {
     text-align: left;
     font-size: 16px;
-    padding: 2rem 6rem 1rem 2rem;
-    font-size: 28px; } }
+    padding: 2rem 0rem 1rem 1rem;
+    font-size: 24px; } }
+
+.icone_fleche {
+  margin-left: 22px;
+  color: black; }
+
+.icone_coeur {
+  margin-left: 85%;
+  font-size: x-large;
+  opacity: 60%;
+  cursor: pointer; }
+
+.icone_coeur_restau {
+  font-size: x-large;
+  opacity: 60%;
+  margin-right: 25px; }
 
 .titre {
   font-size: 14px;
@@ -303,10 +352,11 @@ a {
   text-decoration: #f6f6f6; }
 
 .menu {
+  box-sizing: border-box;
+  width: auto;
   box-shadow: 3px 3px 3px 3px #eee;
   background-color: white;
   border-radius: 10px;
-  width: 90%;
   margin-top: 12px;
   margin-left: 20px;
   text-align: initial;
@@ -370,7 +420,7 @@ h5 {
 
 .titre_menu {
   padding-top: 8px;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 18px;
   margin-top: 2px; }
@@ -392,21 +442,6 @@ h5 {
 .image_cart {
   position: absolute;
   z-index: 1; }
-
-.icone_fleche {
-  margin-left: 22px;
-  color: black; }
-
-.icone_coeur {
-  margin-left: 85%;
-  font-size: x-large;
-  opacity: 60%;
-  cursor: pointer; }
-
-.icone_coeur_restau {
-  font-size: x-large;
-  opacity: 60%;
-  margin-right: 25px; }
 
 .fonction {
   text-align: left;
@@ -495,12 +530,15 @@ h3 {
   position: relative; }
 
 .new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #38e7bb;
   color: #278827;
   font-weight: 400;
   position: absolute;
   z-index: 1;
-  left: 70%;
+  right: 10%;
   padding: 1%;
   margin-top: 4%;
   font-size: 8px;
@@ -508,3 +546,23 @@ h3 {
 
 .aaa {
   animation: 600ms ease 0ms 1; }
+
+.check {
+  background-color: #99e2d0;
+  margin: 1rem 1rem -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .5s; }
+
+.check_check {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(180deg);
+  transition-duration: .5s; }

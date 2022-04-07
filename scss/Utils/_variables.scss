@@ -45,7 +45,7 @@
   }
   
   button:hover {
-      background: #eb7af5
+    background: #eb7af5
     }
   
   button:active {
@@ -54,18 +54,59 @@
   }
  
   .icone_coeur{
+    background-color:black;
     background-clip: text;
     -webkit-background-clip: text;
-    color: black;
-    opacity: 1;
     cursor: pointer;
-    transition: all 450ms;
+    color: transparent;
+    opacity: 0;
+    transition: all 450ms ease-in-out;
     overflow: hidden; 
+    transform-origin: 100%;
     position: relative;
+    
   }
 
   .icone_coeur:hover{
-      transform:   scale(1) translate(50%) ;
-      background: -webkit-linear-gradient(#ffabc1, #356ad2);
+    font-weight: 900;
+    opacity: 1;
+    transform: scaleX(0,8) ;
+    background-image: linear-gradient(#FF97DA, #9356DC);
+           
 
     }
+
+
+  .icone_coeur_restau{
+    background-color:black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    cursor: pointer;
+    color: transparent;
+    opacity: 0;
+    transition: all 450ms ease-in-out;
+    overflow: hidden; 
+    transform-origin: 100%;
+    position: relative;
+      
+    }
+  
+  .icone_coeur_restau:hover{
+    font-weight: 900;
+    opacity: 1;
+    transform: scaleX(0,8) ;
+    background-image: linear-gradient(#FF97DA, #9356DC);
+        
+        
+   }
+    
+  .ancre_Choix:hover {
+    background-color: linear-gradient(#FF97DA, #9356DC);
+    cursor: pointer;
+    
+    }
+  
+  .ancre_Choix:active {
+    box-shadow: 2px 2px 2px 2px;
+    transform: translateY(3px);
+  }

@@ -15,13 +15,21 @@
         padding-right: 10px;
         font-size: 18px;
     }
+
+    .icone_position{
+        font-size: 24px;
+
+    }
+
     .button_top--rose{
         font-size: 26px;
         padding-left: 5%;
         padding-right: 5%;
         padding-top: 2%;
         padding-bottom: 2%;
+
     }
+
     .paris{
         opacity: 60%;
         font-size: 28px;
@@ -37,7 +45,9 @@
         line-height: 35px;
         margin-bottom: 6%;
         font-size: 42px;
+
     }
+
     .exceptions{
         opacity: 60%;
         font-size: 28px;
@@ -45,9 +55,13 @@
           
     }
     .fonction{
-        font-size: 28px;
-        margin-top: -28px;
-}
+        font-size: 24px;
+        padding: 0%;
+   }
+
+
+   
+
     
     .choix3{
         font-size: 18px;
@@ -63,7 +77,12 @@
     }
     .containers_resto{
         font-size: 28px;
-        flex-wrap: wrap;
+        
+    }
+    .quatre_cartes{
+        display: flex;
+        justify-content: space-around;
+        
     }
     h4{
         font-size: 18px;
@@ -102,14 +121,14 @@
         width: 100%;
     }
     .menu_titre{
-        font-size: 22px;
-        
+        font-size: 16px;
+
     }
     .menu_description{
-        font-size: 20px;
+        font-size: 14px;
     }
     .menu_prix{
-        font-size: 20px;
+        font-size: 14px;
     }
     .transition_button--rose{
         font-size: 26px;
@@ -121,7 +140,7 @@
     }
 
     .card_resto{
-        width: 100%;
+        width: 45%;
     }
 
     .card_nom{
@@ -131,8 +150,8 @@
     #ancre_restaurants{
         text-align: left;
         font-size: 16px;
-        padding: 2rem 6rem 1rem 2rem;
-        font-size: 28px;
+        padding: 2rem 0rem 1rem 1rem;
+        font-size: 24px;
     }
 
 

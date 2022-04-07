@@ -25,6 +25,7 @@
     opacity: 70%;
 }
 
+
 .choix{
     background-color: #f6f6f6;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
     border-radius: 15px;
@@ -43,6 +44,7 @@
     
     
 }
+
 .choix3{
     font-size: 14px;
     font-weight: bold;
@@ -107,13 +109,16 @@ h3{
 
 
 .new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     background-color: #38e7bb;
     color: #278827;
     font-weight: 400;
     position: absolute;
     z-index: 1;
-    left: 70%;
+    right: 10%;
     padding: 1%;
     margin-top: 4%;
     font-size: 8px;

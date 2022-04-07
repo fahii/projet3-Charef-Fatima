@@ -1,13 +1,15 @@
 .menu{
+    box-sizing: border-box;
+    width: auto;
     box-shadow: 3px 3px 3px 3px #eee;
     background-color: white;
     border-radius: 10px;
-    width: 90%;
     margin-top: 12px;
     margin-left: 20px;
     text-align: initial;
     padding-top: 10px;
     padding-bottom: 10px;
+    
         
 }
 .name_city{
@@ -72,7 +74,7 @@ h5{
 
 .titre_menu{
     padding-top: 8px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 18px;
     margin-top: 2px;
