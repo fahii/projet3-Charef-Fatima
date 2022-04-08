@@ -89,6 +89,45 @@ button:active {
   box-shadow: 2px 2px 2px 2px;
   transform: translateY(3px); }
 
+.loader {
+  background-color: white;
+  opacity: 60%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  animation: rond 5s;
+  animation-fill-mode: forwards; }
+
+@keyframes rond {
+  to {
+    transform: scaleX(0); }
+  from {
+    transform: scaleX(5); } }
+
+.menu_prix_check {
+  background-color: #99e2d0;
+  margin: 2rem 2rem -2rem -2rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 5s; }
+
+.check_check {
+  height: 1rem;
+  width: 1rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(180deg);
+  transition-duration: 5s; }
+
 header {
   font-family: "Shrikhand", cursive;
   font-weight: 400;
@@ -443,6 +482,14 @@ h5 {
   position: absolute;
   z-index: 1; }
 
+.loader {
+  box-sizing: border-box;
+  background-image: -moz-linear-gradient(0);
+  font-family: "Shrikhand", cursive;
+  text-align: center;
+  color: #9356DC;
+  font-size: 1500%; }
+
 .fonction {
   text-align: left;
   font-size: 18px;
@@ -546,23 +593,3 @@ h3 {
 
 .aaa {
   animation: 600ms ease 0ms 1; }
-
-.check {
-  background-color: #99e2d0;
-  margin: 1rem 1rem -1rem 1rem;
-  width: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-duration: .5s; }
-
-.check_check {
-  height: 1.6rem;
-  width: 1.6rem;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100px;
-  transform: rotate(180deg);
-  transition-duration: .5s; }
