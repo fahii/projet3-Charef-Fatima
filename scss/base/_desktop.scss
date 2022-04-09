@@ -2,13 +2,13 @@
     ol{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
+        justify-content: space-evenly;
+       
     }
 
     .aaa{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     
     .icone{
@@ -22,9 +22,9 @@
     }
 
     .button_top--rose{
-        font-size: 26px;
-        padding-left: 5%;
-        padding-right: 5%;
+        font-size: 20px;
+        padding-left: 4%;
+        padding-right: 4%;
         padding-top: 2%;
         padding-bottom: 2%;
 
@@ -59,9 +59,7 @@
         padding: 0%;
    }
 
-
-   
-
+  
     
     .choix3{
         font-size: 18px;
@@ -92,12 +90,17 @@
         font-size: 18px;
         margin-left: 1px;
 }
+
     .titre{
         font-size: 26px;
 }
+
     .condition_point{
         font-size: 16px;
 }
+
+   
+
     .titre_resto{
         font-size: 22px;
         
@@ -106,6 +109,7 @@
         font-size: 26px;
         width: 5%;
     }
+
 
     .debut_plat{
         font-size: 26px;
@@ -117,23 +121,24 @@
         width: 6%;
 
     }
-    .menu{
-        width: 100%;
-    }
+    
     .menu_titre{
         font-size: 16px;
 
     }
+
     .menu_description{
         font-size: 14px;
     }
+
     .menu_prix{
         font-size: 14px;
     }
+
     .transition_button--rose{
-        font-size: 26px;
-        padding-left: 5%;
-        padding-right: 5%;
+        font-size: 20px;
+        padding-left: 4%;
+        padding-right: 4%;
         padding-top: 2%;
         padding-bottom: 2%;
 
@@ -143,15 +148,17 @@
         width: 45%;
     }
 
+
     .card_nom{
         line-height: 15px;
     }
 
+
     #ancre_restaurants{
         text-align: left;
         font-size: 16px;
-        padding: 2rem 0rem 1rem 1rem;
-        font-size: 24px;
+        padding: 0rem 0rem 1rem 1rem;
+        font-size: 22px;
     }
 
 

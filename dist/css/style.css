@@ -52,7 +52,7 @@ button:active {
   cursor: pointer;
   color: transparent;
   opacity: 0;
-  transition: all 450ms ease-in-out;
+  transition: all 600ms ease-in-out;
   overflow: hidden;
   transform-origin: 100%;
   position: relative; }
@@ -127,6 +127,14 @@ button:active {
   border-radius: 100px;
   transform: rotate(180deg);
   transition-duration: 5s; }
+
+@keyframes menu {
+  0% {
+    transform: translateY(70%);
+    opacity: 0; }
+  100% {
+    transform: translateY(0%);
+    opacity: 1; } }
 
 header {
   font-family: "Shrikhand", cursive;
@@ -243,10 +251,8 @@ main {
   .debut_dessert {
     font-size: 20px;
     width: 6%; }
-  .menu {
-    width: 100%; }
   .menu_titre {
-    font-size: 22px; }
+    font-size: 18px; }
   .menu_description {
     font-size: 16px; }
   .menu_prix {
@@ -262,20 +268,19 @@ main {
   ol {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%; }
+    justify-content: space-evenly; }
   .aaa {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-evenly; }
   .icone {
     padding-right: 10px;
     font-size: 18px; }
   .icone_position {
     font-size: 24px; }
   .button_top--rose {
-    font-size: 26px;
-    padding-left: 5%;
-    padding-right: 5%;
+    font-size: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%; }
   .paris {
@@ -326,8 +331,6 @@ main {
   .debut_dessert {
     font-size: 26px;
     width: 6%; }
-  .menu {
-    width: 100%; }
   .menu_titre {
     font-size: 16px; }
   .menu_description {
@@ -335,9 +338,9 @@ main {
   .menu_prix {
     font-size: 14px; }
   .transition_button--rose {
-    font-size: 26px;
-    padding-left: 5%;
-    padding-right: 5%;
+    font-size: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%; }
   .card_resto {
@@ -347,8 +350,8 @@ main {
   #ancre_restaurants {
     text-align: left;
     font-size: 16px;
-    padding: 2rem 0rem 1rem 1rem;
-    font-size: 24px; } }
+    padding: 0rem 0rem 1rem 1rem;
+    font-size: 22px; } }
 
 .icone_fleche {
   margin-left: 22px;
@@ -400,7 +403,8 @@ a {
   margin-left: 20px;
   text-align: initial;
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  animation: menu 4s; }
 
 .name_city {
   font-size: 16px;
@@ -478,7 +482,7 @@ h5 {
   display: flex;
   justify-content: space-between; }
 
-.image_cart {
+.image_carte {
   position: absolute;
   z-index: 1; }
 
@@ -496,6 +500,12 @@ h5 {
   margin-left: 16px;
   padding: 2rem 6rem 1rem 2rem; }
 
+.fonct {
+  margin-top: 5%; }
+
+.violet:hover {
+  background-color: #e0c9f7; }
+
 .chiffre {
   font-size: 18px;
   width: 2rem;
@@ -510,6 +520,10 @@ h5 {
 
 .icone_choix {
   opacity: 70%; }
+
+.icone_choix .violet:hover {
+  opacity: 90%;
+  background-color: #9356DC; }
 
 .choix {
   background-color: #f6f6f6;

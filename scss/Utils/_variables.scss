@@ -51,7 +51,10 @@
   button:active {
     box-shadow: 2px 2px 2px 2px;
     transform: translateY(4px);
+
   }
+
+  
  
   .icone_coeur{
     background-color:black;
@@ -60,7 +63,7 @@
     cursor: pointer;
     color: transparent;
     opacity: 0;
-    transition: all 450ms ease-in-out;
+    transition: all 600ms ease-in-out;
     overflow: hidden; 
     transform-origin: 100%;
     position: relative;
@@ -74,96 +77,111 @@
     background-image: linear-gradient(#FF97DA, #9356DC);
            
 
-    }
+  }
 
 
-  .icone_coeur_restau{
-    background-color:black;
-    background-clip: text;
-    -webkit-background-clip: text;
-    cursor: pointer;
-    color: transparent;
-    opacity: 0;
-    transition: all 450ms ease-in-out;
-    overflow: hidden; 
-    transform-origin: 100%;
-    position: relative;
+.icone_coeur_restau{
+  background-color:black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  cursor: pointer;
+  color: transparent;
+  opacity: 0;
+  transition: all 450ms ease-in-out;
+  overflow: hidden; 
+  transform-origin: 100%;
+  position: relative;
       
-    }
+}
   
-  .icone_coeur_restau:hover{
-    font-weight: 900;
-    opacity: 1;
-    transform: scaleX(0,8) ;
-    background-image: linear-gradient(#FF97DA, #9356DC);
-        
-        
-   }
-    
-  .ancre_Choix:hover {
-    background-color: linear-gradient(#FF97DA, #9356DC);
-    cursor: pointer;
-    
-    }
-  
-  .ancre_Choix:active {
-    box-shadow: 2px 2px 2px 2px;
-    transform: translateY(3px);
-  }
-
-  .loader{
-    background-color:white;
-    opacity: 60%;
-    height: 100vh;
-    position: fixed;
-    top:0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    animation: rond 5s ;
-    animation-fill-mode:forwards;
-    
-    
-    
-
-  }
-
-  @keyframes rond {
-    to{
-      transform: scaleX(0);
-      
-    
-    }
-    from{
-      transform: scaleX(5);
-      
-      
-    }
-    
-
-  }
-  .menu_prix_check{
-    background-color: #99e2d0;
-    margin: 2rem 2rem -2rem -2rem;
-    width: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: 5s;
-
-    }
-
-    .check_check{
-        height: 1rem;
-        width: 1rem;
-        background-color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 100px;
-        transform: rotate(180deg);
-        transition-duration: 5s;
-    }
+.icone_coeur_restau:hover{
+  font-weight: 900;
+  opacity: 1;
+  transform: scaleX(0,8) ;
+  background-image: linear-gradient(#FF97DA, #9356DC);
    
+    
+ }
+    
+.ancre_Choix:hover {
+  background-color: linear-gradient(#FF97DA, #9356DC);
+  cursor: pointer;
+    
+}
+  
+.ancre_Choix:active {
+  box-shadow: 2px 2px 2px 2px;
+  transform: translateY(3px);
+}
+
+.loader{
+  background-color:white;
+  opacity: 60%;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  animation: rond 5s ;
+  animation-fill-mode:forwards;
+    
+    
+    
+
+}
+
+ @keyframes rond {
+  to{
+    transform: scaleX(0);
+        
+  }
+  from{
+    transform: scaleX(5);
+      
+      
+  }
+    
+
+  }
+  
+.menu_prix_check{
+  background-color: #99e2d0;
+  margin: 2rem 2rem -2rem -2rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 5s;
+
+
+  }
+  
+.check_check{
+  height: 1rem;
+  width: 1rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(180deg);
+  transition-duration: 5s;
+
+ }
+
+
+ @keyframes menu{
+  0%{
+   transform: translateY(70%);
+    opacity: 0;
+
+ }
+  100%{
+   transform: translateY(0%);
+   opacity: 1;
+}
+
+}
 
