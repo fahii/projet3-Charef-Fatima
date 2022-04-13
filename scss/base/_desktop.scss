@@ -5,11 +5,7 @@
         justify-content: space-evenly;
        
     }
-
-    .aaa{
-        display: flex;
-        justify-content: space-evenly;
-    }
+   
     
     .icone{
         padding-right: 10px;
@@ -99,7 +95,7 @@
         font-size: 16px;
 }
 
-   
+    
 
     .titre_resto{
         font-size: 22px;
@@ -122,9 +118,11 @@
 
     }
     
+    
+
     .menu_titre{
         font-size: 16px;
-
+        
     }
 
     .menu_description{
@@ -159,6 +157,11 @@
         font-size: 16px;
         padding: 0rem 0rem 1rem 1rem;
         font-size: 22px;
+    }
+
+    .aaa{
+        display: flex;
+        justify-content: space-evenly
     }
 
 

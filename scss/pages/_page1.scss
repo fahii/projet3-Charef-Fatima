@@ -1,12 +1,10 @@
 
 .loader{
     box-sizing: border-box;
-    background-image: -moz-linear-gradient(0);
     font-family: "Shrikhand", cursive;
     text-align: center;
     color: #9356DC;
     font-size: 1500%;
-    
 }
 
 
@@ -45,6 +43,7 @@
 .icone_choix .violet:hover{
     opacity: 90%;
     background-color: #9356DC;
+    
     
 }
 
@@ -132,9 +131,6 @@ h3{
 
 
 .new{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     
     background-color: #38e7bb;
     color: #278827;

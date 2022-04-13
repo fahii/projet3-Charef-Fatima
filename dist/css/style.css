@@ -90,43 +90,24 @@ button:active {
   transform: translateY(3px); }
 
 .loader {
-  background-color: white;
-  opacity: 60%;
-  height: 100vh;
+  background-color: linear-gradient(#FF97DA, #9356DC);
+  width: 0%;
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 1;
-  animation: rond 5s;
+  animation: rond 10s;
   animation-fill-mode: forwards; }
 
 @keyframes rond {
   to {
-    transform: scaleX(0); }
+    transform: translateY(100%);
+    opacity: 1; }
   from {
-    transform: scaleX(5); } }
-
-.menu_prix_check {
-  background-color: #99e2d0;
-  margin: 2rem 2rem -2rem -2rem;
-  width: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-duration: 5s; }
-
-.check_check {
-  height: 1rem;
-  width: 1rem;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100px;
-  transform: rotate(180deg);
-  transition-duration: 5s; }
+    transform: translateY(0%);
+    opacity: 0; } }
 
 @keyframes menu {
   0% {
@@ -135,6 +116,27 @@ button:active {
   100% {
     transform: translateY(0%);
     opacity: 1; } }
+
+.check {
+  background-color: #99E2D0;
+  cursor: pointer;
+  overflow: hidden;
+  margin-right: 6px;
+  opacity: 0%;
+  transition: all 450ms ease-in-out; }
+
+.check:hover {
+  -webkit-background-clip: text;
+  margin-right: 0px;
+  opacity: 100%; }
+
+@keyframes spin {
+  to {
+    transform: rotate(0deg);
+    opacity: 1; }
+  from {
+    transform: rotate(180deg);
+    opacity: 0; } }
 
 header {
   font-family: "Shrikhand", cursive;
@@ -146,7 +148,6 @@ header {
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
   margin: 0%;
   max-width: 100%; }
 
@@ -243,20 +244,20 @@ main {
   .titre_resto {
     font-size: 16px; }
   .debut_entree {
-    font-size: 20px;
+    font-size: 16px;
     width: 6%; }
   .debut_plat {
-    font-size: 20px;
-    width: 5%; }
+    font-size: 16px;
+    width: 7%; }
   .debut_dessert {
-    font-size: 20px;
-    width: 6%; }
+    font-size: 16px;
+    width: 8%; }
   .menu_titre {
-    font-size: 18px; }
+    font-size: 16px; }
   .menu_description {
-    font-size: 16px; }
+    font-size: 14px; }
   .menu_prix {
-    font-size: 16px; }
+    font-size: 14px; }
   .transition_button--rose {
     font-size: 20px;
     padding-left: 5%;
@@ -268,9 +269,6 @@ main {
   ol {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
-  .aaa {
-    display: flex;
     justify-content: space-evenly; }
   .icone {
     padding-right: 10px;
@@ -351,7 +349,10 @@ main {
     text-align: left;
     font-size: 16px;
     padding: 0rem 0rem 1rem 1rem;
-    font-size: 22px; } }
+    font-size: 22px; }
+  .aaa {
+    display: flex;
+    justify-content: space-evenly; } }
 
 .icone_fleche {
   margin-left: 22px;
@@ -360,8 +361,7 @@ main {
 .icone_coeur {
   margin-left: 85%;
   font-size: x-large;
-  opacity: 60%;
-  cursor: pointer; }
+  opacity: 60%; }
 
 .icone_coeur_restau {
   font-size: x-large;
@@ -394,7 +394,6 @@ a {
   text-decoration: #f6f6f6; }
 
 .menu {
-  box-sizing: border-box;
   width: auto;
   box-shadow: 3px 3px 3px 3px #eee;
   background-color: white;
@@ -404,7 +403,7 @@ a {
   text-align: initial;
   padding-top: 10px;
   padding-bottom: 10px;
-  animation: menu 4s; }
+  animation: menu 5s; }
 
 .name_city {
   font-size: 16px;
@@ -470,25 +469,21 @@ h5 {
 
 .menu_description {
   font-size: 12px;
-  margin-left: 6px; }
+  margin-left: 6px;
+  margin-left: auto; }
 
 .menu_prix {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 12px;
-  margin-right: 18px; }
+  font-size: 12px; }
 
 .menu_description_prix {
-  display: flex;
-  justify-content: space-between; }
+  display: inline; }
 
-.image_carte {
+.image_cart {
   position: absolute;
   z-index: 1; }
 
 .loader {
   box-sizing: border-box;
-  background-image: -moz-linear-gradient(0);
   font-family: "Shrikhand", cursive;
   text-align: center;
   color: #9356DC;
@@ -591,9 +586,6 @@ h3 {
   position: relative; }
 
 .new {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #38e7bb;
   color: #278827;
   font-weight: 400;
@@ -604,6 +596,3 @@ h3 {
   margin-top: 4%;
   font-size: 8px;
   border-radius: 3px; }
-
-.aaa {
-  animation: 600ms ease 0ms 1; }
