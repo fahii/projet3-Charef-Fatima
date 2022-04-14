@@ -132,7 +132,7 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-  animation: rond 10s;
+  animation: rond 15s;
   animation-fill-mode:forwards;          
 
 }
@@ -168,35 +168,31 @@
 
   .check{
     background-color: #99E2D0;
-    
+    color: white;
+    border-radius: 0px 10px 10px 0px;
     cursor: pointer;
     overflow: hidden;
-    margin-right: 6px;
-    opacity: 0%;
-    transition: all 450ms ease-in-out;
+    padding: 15px;
+    transition: 3s ease-in-out;
+    opacity: 1;
   }
 
 
 
   .check:hover{
-    
+    color: #99E2D0;
+    border-radius: 4px;
     -webkit-background-clip: text;
-    margin-right: 0px;
-    opacity: 100%;
+    transform: rotate(360deg);
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
   }
 
   
 
-  @keyframes spin{
-    to{
-      transform: rotate(0deg);
-      opacity: 1;
-    }
-     
-    from{
-      transform: rotate(180deg);
-      opacity: 0;
-    }
 
 
-  }
+  

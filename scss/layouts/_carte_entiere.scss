@@ -5,11 +5,13 @@
     background-color: white;
     border-radius: 10px;
     margin-top: 12px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: initial;
     padding-top: 10px;
     padding-bottom: 10px;
     animation: menu 5s;
+    display: flex;
+    flex-direction: column;
     
     
         
@@ -80,32 +82,52 @@ h5{
     margin-bottom: 0px;
 }
 
-.titre_menu{
-    padding-top: 8px;
+.menu_titre{
+    
     font-size: 14px;
     font-weight: bold;
-    margin-bottom: 18px;
-    margin-top: 2px;
-    
+   
 }
 .menu_description{
-    font-size: 12px;
+    font-size: 10px;
     margin-left: 6px;
-    margin-left: auto;
+    margin-top: 10px;
+   
+    
 }
 
 .menu_prix{
-    
+    margin-left: 20%;
     font-size: 12px;
-    
+    position: relative;
+    left: 30px;
+    text-overflow: ellipsis;
+    z-index: 1;
+
 }
+
+.menu_prix:hover{
+    left: 0px;
+    transition: all 2s ease-out;
+}
+
 .menu_description_prix{
-   display: inline;
-  
-    
-    
-    
-    
+   display: flex;
+   
+            
+}
+
+
+.menu_entier{
+    display: flex;
+    align-items: baseline;
+    margin-top: -26px;
+    margin-bottom: -3%;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    animation: 1s ease-out;
+
+
 }
 
 

@@ -98,7 +98,7 @@ button:active {
   bottom: 0;
   left: 0;
   z-index: 1;
-  animation: rond 10s;
+  animation: rond 15s;
   animation-fill-mode: forwards; }
 
 @keyframes rond {
@@ -119,24 +119,23 @@ button:active {
 
 .check {
   background-color: #99E2D0;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
   cursor: pointer;
   overflow: hidden;
-  margin-right: 6px;
-  opacity: 0%;
-  transition: all 450ms ease-in-out; }
+  padding: 15px;
+  transition: 3s ease-in-out;
+  opacity: 1; }
 
 .check:hover {
+  color: #99E2D0;
+  border-radius: 4px;
   -webkit-background-clip: text;
-  margin-right: 0px;
-  opacity: 100%; }
-
-@keyframes spin {
-  to {
-    transform: rotate(0deg);
-    opacity: 1; }
-  from {
-    transform: rotate(180deg);
-    opacity: 0; } }
+  transform: rotate(360deg);
+  opacity: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 header {
   font-family: "Shrikhand", cursive;
@@ -399,11 +398,13 @@ a {
   background-color: white;
   border-radius: 10px;
   margin-top: 12px;
-  margin-left: 20px;
+  margin-left: 10px;
   text-align: initial;
   padding-top: 10px;
   padding-bottom: 10px;
-  animation: menu 5s; }
+  animation: menu 5s;
+  display: flex;
+  flex-direction: column; }
 
 .name_city {
   font-size: 16px;
@@ -460,23 +461,38 @@ h5 {
   margin-top: 40px;
   margin-bottom: 0px; }
 
-.titre_menu {
-  padding-top: 8px;
+.menu_titre {
   font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 18px;
-  margin-top: 2px; }
+  font-weight: bold; }
 
 .menu_description {
-  font-size: 12px;
+  font-size: 10px;
   margin-left: 6px;
-  margin-left: auto; }
+  margin-top: 10px; }
 
 .menu_prix {
-  font-size: 12px; }
+  margin-left: 20%;
+  font-size: 12px;
+  position: relative;
+  left: 30px;
+  text-overflow: ellipsis;
+  z-index: 1; }
+
+.menu_prix:hover {
+  left: 0px;
+  transition: all 2s ease-out; }
 
 .menu_description_prix {
-  display: inline; }
+  display: flex; }
+
+.menu_entier {
+  display: flex;
+  align-items: baseline;
+  margin-top: -26px;
+  margin-bottom: -3%;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  animation: 1s ease-out; }
 
 .image_cart {
   position: absolute;
