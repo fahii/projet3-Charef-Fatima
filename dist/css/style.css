@@ -117,25 +117,24 @@ button:active {
     transform: translateY(0%);
     opacity: 1; } }
 
-.check {
-  background-color: #99E2D0;
-  color: white;
-  border-radius: 0px 10px 10px 0px;
+.fas {
   cursor: pointer;
+  transition: all 600ms ease-in-out;
+  opacity: 0%; }
+
+.check {
+  background: #99E2D0;
+  border-radius: 0px 10px 10px 0px;
   overflow: hidden;
-  padding: 15px;
-  transition: 3s ease-in-out;
-  opacity: 1; }
+  padding: 10px 10px 10px 10px;
+  opacity: 0%; }
 
 .check:hover {
-  color: #99E2D0;
-  border-radius: 4px;
-  -webkit-background-clip: text;
+  opacity: 100%; }
+
+.fas:hover {
   transform: rotate(360deg);
-  opacity: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
+  opacity: 100%; }
 
 header {
   font-family: "Shrikhand", cursive;
@@ -398,13 +397,23 @@ a {
   background-color: white;
   border-radius: 10px;
   margin-top: 12px;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 6px;
   text-align: initial;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   animation: menu 5s;
   display: flex;
-  flex-direction: column; }
+  justify-content: space-between; }
+
+.menu_prix_check {
+  display: flex;
+  position: relative;
+  left: 45px; }
+
+.menu_prix_check:hover {
+  left: 0px;
+  transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19); }
 
 .name_city {
   font-size: 16px;
@@ -432,6 +441,10 @@ h5 {
   font-size: 10px;
   font-family: "Shrikhand", cursive;
   padding-top: 20px; }
+
+.fas {
+  font-size: x-large;
+  color: #f5f5f5; }
 
 .debut_entree {
   border-bottom: 4px solid #99E2D0;
@@ -467,20 +480,13 @@ h5 {
 
 .menu_description {
   font-size: 10px;
-  margin-left: 6px;
-  margin-top: 10px; }
+  margin-left: 6px; }
 
 .menu_prix {
-  margin-left: 20%;
+  cursor: pointer;
   font-size: 12px;
-  position: relative;
-  left: 30px;
-  text-overflow: ellipsis;
-  z-index: 1; }
-
-.menu_prix:hover {
-  left: 0px;
-  transition: all 2s ease-out; }
+  display: flex;
+  align-items: center; }
 
 .menu_description_prix {
   display: flex; }
@@ -494,7 +500,7 @@ h5 {
   text-overflow: ellipsis;
   animation: 1s ease-out; }
 
-.image_cart {
+.image_carte {
   position: absolute;
   z-index: 1; }
 

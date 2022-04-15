@@ -5,17 +5,31 @@
     background-color: white;
     border-radius: 10px;
     margin-top: 12px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 6px;
     text-align: initial;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     animation: menu 5s;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     
     
         
 }
+
+.menu_prix_check{
+    display: flex;
+    position: relative;
+    left: 45px;
+}
+
+.menu_prix_check:hover{
+    left: 0px;
+    transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+
 .name_city{
     font-size: 16px;
     margin-left: 1px;
@@ -48,7 +62,10 @@ h5{
 }
 
 
-
+.fas {
+    font-size: x-large;
+    color: #f5f5f5;
+}
 
 
 .debut_entree{ 
@@ -83,7 +100,6 @@ h5{
 }
 
 .menu_titre{
-    
     font-size: 14px;
     font-weight: bold;
    
@@ -91,25 +107,19 @@ h5{
 .menu_description{
     font-size: 10px;
     margin-left: 6px;
-    margin-top: 10px;
-   
+    
     
 }
 
 .menu_prix{
-    margin-left: 20%;
+    cursor: pointer;
     font-size: 12px;
-    position: relative;
-    left: 30px;
-    text-overflow: ellipsis;
-    z-index: 1;
+    display: flex;
+    align-items: center;
 
 }
 
-.menu_prix:hover{
-    left: 0px;
-    transition: all 2s ease-out;
-}
+
 
 .menu_description_prix{
    display: flex;
@@ -131,7 +141,7 @@ h5{
 }
 
 
-.image_cart{
+.image_carte{
     position: absolute;
     z-index: 1;
 }
