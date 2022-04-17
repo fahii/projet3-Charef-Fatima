@@ -1,4 +1,10 @@
-@media only screen and (max-width: 800px) and (min-width: 500px){
+@media only screen and (max-width: 799px) and (min-width: 500px){
+    ol{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       
+    }
 
     .icone{
         padding-right: 10px;

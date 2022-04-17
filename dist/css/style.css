@@ -46,12 +46,12 @@ button:active {
   transform: translateY(4px); }
 
 .icone_coeur {
-  background-color: black;
+  background-image: black;
   background-clip: text;
   -webkit-background-clip: text;
   cursor: pointer;
+  background-color: black;
   color: transparent;
-  opacity: 0;
   transition: all 600ms ease-in-out;
   overflow: hidden;
   transform-origin: 100%;
@@ -59,17 +59,16 @@ button:active {
 
 .icone_coeur:hover {
   font-weight: 900;
-  opacity: 1;
   transform: scaleX(0, 8);
-  background-image: linear-gradient(#FF97DA, #9356DC); }
+  background-image: linear-gradient(linear, bottom, top from #FF97DA, to #9356DC); }
 
 .icone_coeur_restau {
+  background-image: linear-gradient(#FF97DA, #9356DC);
+  color: transparent;
   background-color: black;
   background-clip: text;
   -webkit-background-clip: text;
   cursor: pointer;
-  color: transparent;
-  opacity: 0;
   transition: all 450ms ease-in-out;
   overflow: hidden;
   transform-origin: 100%;
@@ -77,9 +76,7 @@ button:active {
 
 .icone_coeur_restau:hover {
   font-weight: 900;
-  opacity: 1;
-  transform: scaleX(0, 8);
-  background-image: linear-gradient(#FF97DA, #9356DC); }
+  transform: scaleX(0, 8); }
 
 .ancre_Choix:hover {
   background-color: linear-gradient(#FF97DA, #9356DC);
@@ -117,20 +114,51 @@ button:active {
     transform: translateY(0%);
     opacity: 1; } }
 
+.apparition1 {
+  animation: menu 1s forwards 200ms; }
+
+.apparition2 {
+  animation: menu 1s forwards 300ms; }
+
+.apparition3 {
+  animation: menu 1s forwards 400ms; }
+
+.apparition4 {
+  animation: menu 1s forwards 500ms; }
+
+.apparition5 {
+  animation: menu 1s forwards 600ms; }
+
+.apparition6 {
+  animation: menu 1s forwards 700ms; }
+
+.apparition7 {
+  animation: menu 1s forwards 800ms; }
+
+.apparition8 {
+  animation: menu 1s forwards 900ms; }
+
+.apparition9 {
+  animation: menu 1s forwards 1000ms; }
+
+.apparition10 {
+  animation: menu 1S forwards 1100ms; }
+
 .fas {
   cursor: pointer;
-  transition: all 600ms ease-in-out;
+  transition: all 400ms ease-in-out;
   opacity: 0%; }
 
 .check {
   background: #99E2D0;
   border-radius: 0px 10px 10px 0px;
   overflow: hidden;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   opacity: 0%; }
 
 .check:hover {
-  opacity: 100%; }
+  opacity: 100%;
+  transition: all 0,8s ease-in-out; }
 
 .fas:hover {
   transform: rotate(360deg);
@@ -199,7 +227,11 @@ main {
   font-size: 16px;
   margin-bottom: 6%; }
 
-@media only screen and (max-width: 800px) and (min-width: 500px) {
+@media only screen and (max-width: 799px) and (min-width: 500px) {
+  ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
   .icone {
     padding-right: 10px;
     font-size: 22px; }
@@ -263,7 +295,7 @@ main {
     padding-top: 2%;
     padding-bottom: 2%; } }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 800px) {
   ol {
     display: flex;
     flex-direction: row;
@@ -396,24 +428,29 @@ a {
   box-shadow: 3px 3px 3px 3px #eee;
   background-color: white;
   border-radius: 10px;
-  margin-top: 12px;
-  margin-left: 20px;
-  margin-right: 6px;
+  margin-top: 18px;
+  margin-left: 19px;
+  margin-right: 18px;
   text-align: initial;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  animation: menu 5s;
+  animation: menu 3s;
+  transition-duration: 1000ms;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  overflow: clip;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-rendering: auto; }
 
 .menu_prix_check {
+  cursor: pointer;
+  transition: 0,8s ease-in-out;
   display: flex;
   position: relative;
-  left: 45px; }
+  left: 36px; }
 
 .menu_prix_check:hover {
   left: 0px;
-  transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.4); }
 
 .name_city {
   font-size: 16px;
@@ -443,7 +480,7 @@ h5 {
   padding-top: 20px; }
 
 .fas {
-  font-size: x-large;
+  font-size: medium;
   color: #f5f5f5; }
 
 .debut_entree {
@@ -475,30 +512,40 @@ h5 {
   margin-bottom: 0px; }
 
 .menu_titre {
-  font-size: 14px;
-  font-weight: bold; }
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+  line-height: 15px;
+  overflow: clip;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-rendering: auto; }
 
 .menu_description {
+  cursor: pointer;
   font-size: 10px;
-  margin-left: 6px; }
+  margin-left: 6px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  overflow: clip;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-rendering: auto; }
 
 .menu_prix {
   cursor: pointer;
   font-size: 12px;
   display: flex;
-  align-items: center; }
+  align-items: flex-end;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  overflow: clip;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
 
 .menu_description_prix {
   display: flex; }
-
-.menu_entier {
-  display: flex;
-  align-items: baseline;
-  margin-top: -26px;
-  margin-bottom: -3%;
-  cursor: pointer;
-  text-overflow: ellipsis;
-  animation: 1s ease-out; }
 
 .image_carte {
   position: absolute;
@@ -553,10 +600,10 @@ h5 {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  margin-right: 20px;
-  margin-bottom: 6%;
+  margin-bottom: 4px;
+  margin-left: -26px;
   align-items: center;
-  width: 96%; }
+  width: auto; }
 
 .choix3 {
   font-size: 14px;

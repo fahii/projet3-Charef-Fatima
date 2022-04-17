@@ -62,12 +62,12 @@
 
  
   .icone_coeur{
-    background-color:black;
+    background-image :black;
     background-clip: text;
     -webkit-background-clip: text;
     cursor: pointer;
+    background-color:black;
     color: transparent;
-    opacity: 0;
     transition: all 600ms ease-in-out;
     overflow: hidden; 
     transform-origin: 100%;
@@ -77,9 +77,8 @@
 
   .icone_coeur:hover{
     font-weight: 900;
-    opacity: 1;
     transform: scaleX(0,8) ;
-    background-image: linear-gradient(#FF97DA, #9356DC);
+    background-image: linear-gradient(linear,bottom, top from #FF97DA,to #9356DC);
            
 
   }
@@ -88,12 +87,12 @@
 
 
 .icone_coeur_restau{
-  background-color:black;
+  background-image: linear-gradient(#FF97DA, #9356DC);
+  color: transparent;
+  background-color: black;
   background-clip: text;
   -webkit-background-clip: text;
   cursor: pointer;
-  color: transparent;
-  opacity: 0;
   transition: all 450ms ease-in-out;
   overflow: hidden; 
   transform-origin: 100%;
@@ -103,9 +102,9 @@
   
 .icone_coeur_restau:hover{
   font-weight: 900;
-  opacity: 1;
+  
   transform: scaleX(0,8) ;
-  background-image: linear-gradient(#FF97DA, #9356DC);
+  
        
  }
     
@@ -151,13 +150,13 @@
   }
     
 
-
-
   }
-  @keyframes menu {
+  @keyframes menu{
   0% {
     transform: translateY(70%);
     opacity: 0; }
+
+
   100% {
     transform: translateY(0%);
     opacity: 1; } 
@@ -165,10 +164,41 @@
 
 
 
+  .apparition1{
+    animation: menu 1s forwards 200ms;
+  }
+  .apparition2{
+    animation: menu 1s forwards 300ms;
+  }
+  .apparition3{
+    animation: menu 1s forwards 400ms;
+  }
+  .apparition4{
+    animation: menu 1s forwards 500ms;
+  }
+  .apparition5{
+    animation: menu 1s forwards 600ms;
+  }
+  .apparition6{
+    animation: menu 1s forwards 700ms;
+  }
+  .apparition7{
+    animation: menu 1s forwards 800ms;
+  }
+  .apparition8{
+    animation: menu 1s forwards 900ms;
+  }
+  .apparition9{
+    animation: menu 1s forwards 1000ms;
+  }
+  .apparition10{
+    animation: menu 1S forwards 1100ms;
+  }
 
+ 
   .fas{
     cursor: pointer;
-    transition: all 600ms ease-in-out;
+    transition: all 400ms ease-in-out;
     opacity: 0%;
   }
   
@@ -177,13 +207,15 @@
     background: #99E2D0;
     border-radius: 0px 10px 10px 0px;
     overflow: hidden;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     opacity: 0%;
     
    }
 
    .check:hover{
      opacity: 100%;
+     transition: all 0,8s ease-in-out;
+    
    }
    
 
