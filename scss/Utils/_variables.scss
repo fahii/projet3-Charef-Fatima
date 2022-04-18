@@ -62,13 +62,13 @@
 
  
   .icone_coeur{
-    background-image :black;
+    background-image: linear-gradient(#FF97DA, #9356DC);
+    background-color:black;
     background-clip: text;
     -webkit-background-clip: text;
     cursor: pointer;
-    background-color:black;
+    opacity: 0;
     color: transparent;
-    transition: all 600ms ease-in-out;
     overflow: hidden; 
     transform-origin: 100%;
     position: relative;
@@ -77,9 +77,10 @@
 
   .icone_coeur:hover{
     font-weight: 900;
+    opacity: 1;
+   
+    animation: fill 0,3s ease-in-out;
     transform: scaleX(0,8) ;
-    background-image: linear-gradient(linear,bottom, top from #FF97DA,to #9356DC);
-           
 
   }
 
@@ -93,16 +94,17 @@
   background-clip: text;
   -webkit-background-clip: text;
   cursor: pointer;
-  transition: all 450ms ease-in-out;
+  opacity: 0;
   overflow: hidden; 
   transform-origin: 100%;
   position: relative;
-      
+  
 }
   
 .icone_coeur_restau:hover{
   font-weight: 900;
-  
+  opacity: 1;
+  animation: fill 0,3s ease-in-out;
   transform: scaleX(0,8) ;
   
        
@@ -196,7 +198,7 @@
   }
 
  
-  .fas{
+  .cercle{
     cursor: pointer;
     transition: all 400ms ease-in-out;
     opacity: 0%;
@@ -219,7 +221,7 @@
    }
    
 
-   .fas:hover{
+   .cercle:hover{
     transform: rotate(360deg);
     opacity: 100%;
 
