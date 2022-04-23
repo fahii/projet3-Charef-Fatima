@@ -56,48 +56,40 @@
     transform: translateY(4px);
 
   }
-
-
-
-
  
   .icone_coeur{
     background-image: linear-gradient(#FF97DA, #9356DC);
-    background-color:black;
     background-clip: text;
+    background-image: black;
+    background-color:white;
     -webkit-background-clip: text;
     cursor: pointer;
     opacity: 0;
-    color: transparent;
     overflow: hidden; 
     transform-origin: 100%;
-    position: relative;
+    color: transparent;
     
   }
 
   .icone_coeur:hover{
     font-weight: 900;
     opacity: 1;
-   
     animation: fill 0,3s ease-in-out;
     transform: scaleX(0,8) ;
 
   }
 
-
-
-
-.icone_coeur_restau{
-  background-image: linear-gradient(#FF97DA, #9356DC);
-  color: transparent;
-  background-color: black;
-  background-clip: text;
-  -webkit-background-clip: text;
-  cursor: pointer;
-  opacity: 0;
-  overflow: hidden; 
-  transform-origin: 100%;
-  position: relative;
+  .icone_coeur_restau{
+     background-image: linear-gradient(#FF97DA, #9356DC);
+     color: transparent;
+     background-color: black;
+     background-clip: text;
+     -webkit-background-clip: text;
+     cursor: pointer;
+     opacity: 0;
+     overflow: hidden; 
+     transform-origin: 100%;
+     position: relative;
   
 }
   
@@ -124,35 +116,92 @@
 
 
 
-.loader{
-  background-color: linear-gradient(#FF97DA, #9356DC);
-  width: 0%;
-  position: fixed;
+.loader1{
+  width: 100%;
   top:0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1;
-  animation: rond 15s;
-  animation-fill-mode:forwards;          
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: transparent;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
+}
 
+
+.loader2{
+  width: 100%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: transparent;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
+}
+
+.loader3{
+  width: 100%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: transparent;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
+}
+
+.loader4{
+  width: 100%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: transparent;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
+}
+
+.loader5{
+  width: 100%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: transparent;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
 }
 
 
  @keyframes rond {
   to{
-    transform: translateY(100%);
-    opacity: 1;
+    transform:translateY(100%);
+    opacity: 0;
     
   }
   from{
-    transform: translateY(0%);
-    opacity: 0; 
+    transform:translateY(0%);
+    opacity: 1;
+     
       
   }
     
-
-  }
+   }
   @keyframes menu{
   0% {
     transform: translateY(70%);

@@ -1,12 +1,49 @@
 
-.loader{
+.loader1{
+    background-color: transparent;
     box-sizing: border-box;
     font-family: "Shrikhand", cursive;
     text-align: center;
     color: #9356DC;
     font-size: 1500%;
+    opacity: 60%;
 }
-
+.loader2{
+    background-color: transparent;
+    box-sizing: border-box;
+    font-family: "Shrikhand", cursive;
+    text-align: center;
+    color: #FF97DA;
+    font-size: 1300%;
+    opacity: 60%;
+}
+.loader3{
+    background-color: transparent;
+    box-sizing: border-box;
+    font-family: "Shrikhand", cursive;
+    text-align: center;
+    color: #9356DC;
+    font-size: 1100%;
+    opacity: 60%;
+}
+.loader4{
+    background-color: transparent;
+    box-sizing: border-box;
+    font-family: "Shrikhand", cursive;
+    text-align: center;
+    color:#FF97DA ;
+    font-size: 1000%;
+    opacity: 60%;
+}
+.loader5{
+    background-color:whitesmoke;
+    box-sizing: border-box;
+    font-family: "Shrikhand", cursive;
+    text-align: center;
+    color: #9356DC;
+    font-size: 900%;
+    opacity: 60%;
+}
 
 .fonction {
     text-align: left;
@@ -123,25 +160,21 @@ h3{
     border-radius: 8px 8px 0px 0px;  
     position: center;
     object-fit: cover;
-    position: relative;
-    
+       
       
 }
 
 
 .new{
-    
     background-color: #38e7bb;
     color: #278827;
     font-weight: 400;
     position: absolute;
-    z-index: 1;
-    right: 10%;
-    padding: 1%;
-    margin-top: 4%;
-    font-size: 8px;
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 10px;
     border-radius: 3px;
-    
+    margin-left:  200px;
    
     
 

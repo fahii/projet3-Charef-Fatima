@@ -25,7 +25,15 @@
 a{
    text-decoration: none;
    
-}.mail_contact{
-    text-decoration: #f6f6f6;
+}
+
+.contact{
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.contact:hover{
+    color: gold;
+    font-size: 15px;
 }
 
