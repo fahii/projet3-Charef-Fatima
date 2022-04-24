@@ -58,20 +58,21 @@
   }
  
   .icone_coeur{
-    background-image: linear-gradient(#FF97DA, #9356DC);
     background-clip: text;
-    background-image: black;
-    background-color:white;
+    background-color:gray;
     -webkit-background-clip: text;
+    -webkit-backgrourd-fill-color:transparant;
     cursor: pointer;
     opacity: 0;
     overflow: hidden; 
     transform-origin: 100%;
     color: transparent;
     
+    
   }
 
   .icone_coeur:hover{
+    background-image: linear-gradient(#FF97DA, #9356DC);
     font-weight: 900;
     opacity: 1;
     animation: fill 0,3s ease-in-out;
@@ -80,20 +81,21 @@
   }
 
   .icone_coeur_restau{
-     background-image: linear-gradient(#FF97DA, #9356DC);
-     color: transparent;
-     background-color: black;
-     background-clip: text;
-     -webkit-background-clip: text;
-     cursor: pointer;
-     opacity: 0;
-     overflow: hidden; 
-     transform-origin: 100%;
-     position: relative;
+    color: transparent;
+    background-color: gray;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-backgrourd-fill-color:transparant;
+    cursor: pointer;
+    opacity: 0;
+    overflow: hidden; 
+    transform-origin: 100%;
+   
   
 }
   
 .icone_coeur_restau:hover{
+  background-image: linear-gradient(#FF97DA, #9356DC);
   font-weight: 900;
   opacity: 1;
   animation: fill 0,3s ease-in-out;
@@ -257,15 +259,24 @@
    .check{
     background: #99E2D0;
     border-radius: 0px 10px 10px 0px;
-    overflow: hidden;
     padding: 10px;
     opacity: 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-rendering: auto; 
+    
     
    }
 
    .check:hover{
      opacity: 100%;
      transition: all 0,8s ease-in-out;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     text-rendering: auto; 
+     
     
    }
    
@@ -273,6 +284,12 @@
    .cercle:hover{
     transform: rotate(360deg);
     opacity: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-rendering: auto; 
+     
+    
 
  }
   
