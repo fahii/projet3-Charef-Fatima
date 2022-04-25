@@ -1,3 +1,6 @@
+
+// bouton en haut de la page d'accueil
+
 .button_top--rose {
     font-size: 12px;
     color: azure;
@@ -14,7 +17,9 @@
     cursor: pointer;
     
   }
-  
+  // l'éclaircissement du bouton
+
+
   button:hover {
     background: #eb7af5
     }
@@ -26,7 +31,7 @@
 
   
 
-
+// boutons des pages en bas des restaurants
 
   .transition_button--rose {
     font-size: 12px;
@@ -46,10 +51,12 @@
   
    
   }
-  
+  // éclaircissemnt des boutons
+
+
   button:hover {
     background: #eb7af5
-    }
+  }
   
   button:active {
     box-shadow: 2px 2px 2px 2px;
@@ -57,6 +64,10 @@
 
   }
  
+
+  // les coeurs des restaurants de la page d'accueil 
+
+
   .icone_coeur{
     background-clip: text;
     background-color:gray;
@@ -70,6 +81,8 @@
     
     
   }
+  // le remplissage des coeurs
+
 
   .icone_coeur:hover{
     background-image: linear-gradient(#FF97DA, #9356DC);
@@ -79,6 +92,10 @@
     transform: scaleX(0,8) ;
 
   }
+
+
+
+  // les coeurs du haut des pages des restaurants
 
   .icone_coeur_restau{
     color: transparent;
@@ -93,7 +110,8 @@
    
   
 }
-  
+  // le remplissage des coeurs des resaturants
+
 .icone_coeur_restau:hover{
   background-image: linear-gradient(#FF97DA, #9356DC);
   font-weight: 900;
@@ -103,6 +121,8 @@
   
        
  }
+
+//  le changement de couleur des trois tuiles choix
     
 .ancre_Choix:hover {
   background-color: linear-gradient(#FF97DA, #9356DC);
@@ -116,7 +136,7 @@
 }
 
 
-
+// le loading spinner  de la page d'accueil  
 
 .loader1{
   width: 100%;
@@ -131,6 +151,7 @@
   position: fixed;
   z-index: 4;
 }
+
 
 
 .loader2{
@@ -189,6 +210,8 @@
   z-index: 4;
 }
 
+//  le delay d'apparition et la disparition compléte du loading
+
 
  @keyframes rond {
   to{
@@ -204,6 +227,10 @@
   }
     
    }
+
+  //  le delay des apparitions des menus 
+
+
   @keyframes menu{
   0% {
     transform: translateY(70%);
@@ -216,6 +243,7 @@
   }
 
 
+  // les delays des apparitions menu par menu 
 
   .apparition1{
     animation: menu 1s forwards 200ms;
@@ -248,15 +276,45 @@
     animation: menu 1S forwards 1100ms;
   }
 
+  // le cercle blanc caché derrière le prix
+
+
+  .cercle{
+    font-size: medium;
+    color: #f5f5f5;
+}
  
+
+  // le rond qui entoure l'icone check sur la description du menu
+
+
   .cercle{
     cursor: pointer;
     transition: all 400ms ease-in-out;
     opacity: 0%;
   }
+
+
+
+  // le mouvement de rotation vers la droite du check 
+
+
+  .cercle:hover{
+    transform: rotate(360deg);
+    opacity: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-rendering: auto; 
+    
+ }
+
+
+
+  // l'icone du check sur la description du menu
   
-  
-   .check{
+
+  .check{
     background: #99E2D0;
     border-radius: 0px 10px 10px 0px;
     padding: 10px;
@@ -265,9 +323,9 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     text-rendering: auto; 
-    
-    
+        
    }
+
 
    .check:hover{
      opacity: 100%;
@@ -276,22 +334,31 @@
      text-overflow: ellipsis;
      white-space: nowrap;
      text-rendering: auto; 
-     
-    
+         
    }
-   
-
-   .cercle:hover{
-    transform: rotate(360deg);
-    opacity: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    text-rendering: auto; 
-     
+  
     
+  // le mouvement du prix qui se décale sur le côté
 
- }
+   .menu_prix_check{
+     cursor: pointer;
+     transition: 0,8s ease-in-out;
+     display: flex;
+     position: relative;
+     left: 36px;
+       
+}
+
+  //  le mouvement du prix et l'apparition de la cloche
+
+
+   .menu_prix_check:hover{
+      left: 0px;
+      transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.40);
+}
+
+
+
   
   
 
