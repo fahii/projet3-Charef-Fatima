@@ -78,6 +78,7 @@
     overflow: hidden; 
     transform-origin: 100%;
     color: transparent;
+    transition: 400ms;
     
     
   }
@@ -86,10 +87,9 @@
 
   .icone_coeur:hover{
     background-image: linear-gradient(#FF97DA, #9356DC);
-    font-weight: 900;
+    font-weight: 900;      
     opacity: 1;
-    animation: fill 0,3s ease-in-out;
-    transform: scaleX(0,8) ;
+    z-index: 2;
 
   }
 
@@ -116,7 +116,7 @@
   background-image: linear-gradient(#FF97DA, #9356DC);
   font-weight: 900;
   opacity: 1;
-  animation: fill 0,3s ease-in-out;
+  animation: fill 0,5s ease-in-out;
   transform: scaleX(0,8) ;
   
        
