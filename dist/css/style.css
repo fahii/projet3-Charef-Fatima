@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2? family= Shrikhand & display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
-.button_top_rose {
+.boutton_top_rose {
   font-size: 12px;
   color: azure;
   font-family: "Roboto" 300;
@@ -15,11 +15,11 @@
   padding-bottom: 4%;
   cursor: pointer; }
 
-button:hover {
+boutton:hover {
   box-shadow: 30px 30px 30px 30px;
   background: #eb7af5; }
 
-button:active {
+boutton:active {
   transform: translateY(4px); }
 
 .transition_button_rose {

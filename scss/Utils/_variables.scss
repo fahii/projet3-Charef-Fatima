@@ -1,7 +1,7 @@
 
 // bouton en haut de la page d'accueil
 
-.button_top_rose {
+.boutton_top_rose {
     font-size: 12px;
     color: azure;
     font-family: "Roboto" 300;
@@ -20,14 +20,14 @@
   // l'éclaircissement du bouton
 
 
-  button:hover {
+  boutton:hover {
     box-shadow: 30px 30px 30px 30px;
     background: #eb7af5
     
 
     }
   
-  button:active {     
+  boutton:active {     
     transform: translateY(4px);
   }
 
