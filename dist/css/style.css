@@ -17,7 +17,7 @@
 
 boutton:hover {
   box-shadow: 30px 30px 30px 30px;
-  background: #eb7af5; }
+  background: #FF97DA; }
 
 boutton:active {
   transform: translateY(4px); }
@@ -39,38 +39,39 @@ boutton:active {
   cursor: pointer; }
 
 button:hover {
-  box-shadow: 30px 30px 30px 30px;
-  background: #eb7af5; }
+  box-shadow: 25px 25px 25px 25px;
+  background: #FF97DA; }
 
 button:active {
   transform: translateY(4px); }
 
 .icone_coeur {
+  display: flex;
   background-clip: text;
   background-color: gray;
   -webkit-background-clip: text;
   -webkit-backgrourd-fill-color: transparant;
   cursor: pointer;
-  opacity: 0;
+  opacity: 0,01;
   overflow: hidden;
   transform-origin: 100%;
-  color: transparent;
-  transition: 400ms; }
+  color: transparent; }
 
 .icone_coeur:hover {
   background-image: linear-gradient(#FF97DA, #9356DC);
   font-weight: 900;
   opacity: 1;
-  z-index: 2; }
+  transition: all 2s ease-in-out; }
 
 .icone_coeur_restau {
+  display: flex;
   color: transparent;
   background-color: gray;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-backgrourd-fill-color: transparant;
   cursor: pointer;
-  opacity: 0;
+  opacity: 0,1;
   overflow: hidden;
   transform-origin: 100%; }
 
@@ -78,8 +79,7 @@ button:active {
   background-image: linear-gradient(#FF97DA, #9356DC);
   font-weight: 900;
   opacity: 1;
-  animation: fill 0,5s ease-in-out;
-  transform: scaleX(0, 8); }
+  transition: all 2s ease-in-out; }
 
 .ancre_Choix:hover {
   background-color: linear-gradient(#FF97DA, #9356DC);
