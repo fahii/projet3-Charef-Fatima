@@ -1,7 +1,7 @@
 
 // bouton en haut de la page d'accueil
 
-.button_top--rose {
+.button_top_rose {
     font-size: 12px;
     color: azure;
     font-family: "Roboto" 300;
@@ -21,11 +21,13 @@
 
 
   button:hover {
+    box-shadow: 30px 30px 30px 30px;
     background: #eb7af5
+    
+
     }
   
-  button:active {
-    box-shadow: 2px 2px 2px 2px;
+  button:active {     
     transform: translateY(4px);
   }
 
@@ -33,7 +35,7 @@
 
 // boutons des pages en bas des restaurants
 
-  .transition_button--rose {
+  .transition_button_rose {
     font-size: 12px;
     color: azure;
     font-family: "Roboto" 300;
@@ -55,11 +57,12 @@
 
 
   button:hover {
+    box-shadow: 30px 30px 30px 30px;
     background: #eb7af5
+   
   }
   
-  button:active {
-    box-shadow: 2px 2px 2px 2px;
+  button:active {    
     transform: translateY(4px);
 
   }

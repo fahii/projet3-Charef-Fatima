@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2? family= Shrikhand & display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
-.button_top--rose {
+.button_top_rose {
   font-size: 12px;
   color: azure;
   font-family: "Roboto" 300;
@@ -16,13 +16,13 @@
   cursor: pointer; }
 
 button:hover {
+  box-shadow: 30px 30px 30px 30px;
   background: #eb7af5; }
 
 button:active {
-  box-shadow: 2px 2px 2px 2px;
   transform: translateY(4px); }
 
-.transition_button--rose {
+.transition_button_rose {
   font-size: 12px;
   color: azure;
   font-family: "Roboto" 300;
@@ -39,10 +39,10 @@ button:active {
   cursor: pointer; }
 
 button:hover {
+  box-shadow: 30px 30px 30px 30px;
   background: #eb7af5; }
 
 button:active {
-  box-shadow: 2px 2px 2px 2px;
   transform: translateY(4px); }
 
 .icone_coeur {
@@ -318,7 +318,7 @@ main {
   .icone {
     padding-right: 10px;
     font-size: 22px; }
-  .button_top--rose {
+  .button_top_rose {
     font-size: 20px;
     padding-left: 5%;
     padding-right: 5%;
@@ -373,7 +373,7 @@ main {
     font-size: 14px; }
   .menu_prix {
     font-size: 14px; }
-  .transition_button--rose {
+  .transition_button_rose {
     font-size: 20px;
     padding-left: 5%;
     padding-right: 5%;
@@ -390,7 +390,7 @@ main {
     font-size: 18px; }
   .icone_position {
     font-size: 24px; }
-  .button_top--rose {
+  .button_top_rose {
     font-size: 20px;
     padding-left: 4%;
     padding-right: 4%;
@@ -452,7 +452,7 @@ main {
     font-size: 14px; }
   .menu_prix {
     font-size: 14px; }
-  .transition_button--rose {
+  .transition_button_rose {
     font-size: 20px;
     padding-left: 4%;
     padding-right: 4%;
