@@ -21,6 +21,7 @@
 
 
   boutton:hover {
+    
     box-shadow: 30px 30px 30px 30px;
     background: #FF97DA;
     
@@ -28,7 +29,7 @@
     }
   
   boutton:active {     
-    transform: translateY(4px);
+    transform: translateY(4);
   }
 
   
@@ -93,7 +94,7 @@
     background-image: linear-gradient(#FF97DA, #9356DC);
     font-weight: 900;      
     opacity: 1;
-    transition: all 2s ease-in-out;
+    transition: all 3s ease-in-out;
    
 
   }
@@ -282,6 +283,8 @@
     animation: menu 1S forwards 1100ms;
   }
 
+
+
   // le cercle blanc caché derrière le prix
 
 
@@ -295,7 +298,6 @@
 
 
   .cercle{
-    cursor: pointer;
     transition: all 400ms ease-in-out;
     opacity: 0%;
   }
@@ -308,10 +310,6 @@
   .cercle:hover{
     transform: rotate(360deg);
     opacity: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    text-rendering: auto; 
     
  }
 
@@ -325,10 +323,7 @@
     border-radius: 0px 10px 10px 0px;
     padding: 10px;
     opacity: 0%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    text-rendering: auto; 
+   
         
    }
 
@@ -336,34 +331,33 @@
    .check:hover{
      opacity: 100%;
      transition: all 0,8s ease-in-out;
-     overflow: hidden;
-     text-overflow: ellipsis;
-     white-space: nowrap;
-     text-rendering: auto; 
+     
          
    }
   
     
   // le mouvement du prix qui se décale sur le côté
 
-   .menu_prix_check{
-     cursor: pointer;
-     transition: 0,8s ease-in-out;
-     display: flex;
-     position: relative;
-     left: 36px;
-       
+  .menu_prix_check{    
+    display: flex;
+    position: relative;
+    left: 36px;
+      
 }
 
-  //  le mouvement du prix et l'apparition de la cloche
+ //  le mouvement du prix et l'apparition de la cloche
 
 
-   .menu_prix_check:hover{
-      left: 0px;
-      transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.40);
+  .menu_prix_check:hover{
+     left: 0px;    
+    
+     
 }
 
 
+
+
+  
 
   
   

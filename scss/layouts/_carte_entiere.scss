@@ -1,4 +1,4 @@
-.menu{
+.menu{       
     width: auto;
     box-shadow: 3px 3px 3px 3px #eee;
     background-color: white;
@@ -11,6 +11,10 @@
     transition-duration: 1000ms;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
    
         
 }
@@ -28,6 +32,7 @@
     height: 100%;
     margin-top: -20%;
     border-radius: 2rem 2rem 0rem 0rem;
+   
 }
 
 
@@ -82,30 +87,29 @@
 
 
 
-.menu_titre{
-    
-    cursor: pointer;
+.menu_titre{ 
     font-size: 12px;
     font-weight: bold;
     margin-top: 5px;
-    line-height: 15px;
-    overflow: clip;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    text-rendering: auto;
+    line-height: 15px;   
     margin-left: 5px;
 
 }
 .menu_description{
     cursor: pointer;
+    width: 90%;
     font-size: 10px;
     margin-left: 6px;
     margin-bottom: 6px;
     margin-top: 6px;
-    overflow: clip;
-    text-overflow: ellipsis;
+    
+    
+}
+
+.menu_description:hover{
+    overflow: hidden;
     white-space: nowrap;
-    text-rendering: auto;
+    text-overflow: ellipsis;
 }
 
 
@@ -116,9 +120,7 @@
     align-items: flex-end;
     margin-right: 15px;
     margin-bottom: 5px;
-    overflow: clip;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+   
 }
 
 

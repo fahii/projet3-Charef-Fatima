@@ -20,7 +20,7 @@ boutton:hover {
   background: #FF97DA; }
 
 boutton:active {
-  transform: translateY(4px); }
+  transform: translateY(4); }
 
 .transition1_button_rose {
   font-size: 12px;
@@ -61,7 +61,7 @@ button:active {
   background-image: linear-gradient(#FF97DA, #9356DC);
   font-weight: 900;
   opacity: 1;
-  transition: all 2s ease-in-out; }
+  transition: all 3s ease-in-out; }
 
 .icone_coeur_restau {
   display: flex;
@@ -205,46 +205,30 @@ button:active {
   color: #f5f5f5; }
 
 .cercle {
-  cursor: pointer;
   transition: all 400ms ease-in-out;
   opacity: 0%; }
 
 .cercle:hover {
   transform: rotate(360deg);
-  opacity: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-rendering: auto; }
+  opacity: 100%; }
 
 .check {
   background: #99E2D0;
   border-radius: 0px 10px 10px 0px;
   padding: 10px;
-  opacity: 0%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-rendering: auto; }
+  opacity: 0%; }
 
 .check:hover {
   opacity: 100%;
-  transition: all 0,8s ease-in-out;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-rendering: auto; }
+  transition: all 0,8s ease-in-out; }
 
 .menu_prix_check {
-  cursor: pointer;
-  transition: 0,8s ease-in-out;
   display: flex;
   position: relative;
   left: 36px; }
 
 .menu_prix_check:hover {
-  left: 0px;
-  transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.4); }
+  left: 0px; }
 
 header {
   font-family: "Shrikhand", cursive;
@@ -527,7 +511,11 @@ a {
   animation: menu 3s;
   transition-duration: 1000ms;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
 
 .name_city {
   font-size: 16px;
@@ -581,27 +569,24 @@ a {
   margin-bottom: 0px; }
 
 .menu_titre {
-  cursor: pointer;
   font-size: 12px;
   font-weight: bold;
   margin-top: 5px;
   line-height: 15px;
-  overflow: clip;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-rendering: auto;
   margin-left: 5px; }
 
 .menu_description {
   cursor: pointer;
+  width: 90%;
   font-size: 10px;
   margin-left: 6px;
   margin-bottom: 6px;
-  margin-top: 6px;
-  overflow: clip;
-  text-overflow: ellipsis;
+  margin-top: 6px; }
+
+.menu_description:hover {
+  overflow: hidden;
   white-space: nowrap;
-  text-rendering: auto; }
+  text-overflow: ellipsis; }
 
 .menu_prix {
   cursor: pointer;
@@ -609,10 +594,7 @@ a {
   display: flex;
   align-items: flex-end;
   margin-right: 15px;
-  margin-bottom: 5px;
-  overflow: clip;
-  text-overflow: ellipsis;
-  white-space: nowrap; }
+  margin-bottom: 5px; }
 
 .menu_description_prix {
   display: flex; }
