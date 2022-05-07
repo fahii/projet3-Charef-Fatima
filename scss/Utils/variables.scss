@@ -22,7 +22,7 @@
 
   boutton:hover {
     
-    box-shadow: 30px 30px 30px 30px;
+    box-shadow: 5px 5px 5px 5px black;
     background: #FF97DA;
     
 
@@ -58,7 +58,7 @@
 
 
   button:hover {
-    box-shadow: 25px 25px 25px 25px;
+    box-shadow: 5px 5px 5px 5px black;
     background: #FF97DA;
    
   }
@@ -285,86 +285,4 @@
 
 
 
-  // le cercle blanc caché derrière le prix
-
-
-  .cercle{
-    font-size: medium;
-    color: #f5f5f5;
-}
  
-
-  // le rond qui entoure l'icone check sur la description du menu
-
-
-  .cercle{
-    transition: all 400ms ease-in-out;
-    opacity: 0%;
-  }
-
-
-
-  // le mouvement de rotation vers la droite du check 
-
-
-  .cercle:hover{
-    transform: rotate(360deg);
-    opacity: 100%;
-    
- }
-
-
-
-  // l'icone du check sur la description du menu
-  
-
-  .check{
-    background: #99E2D0;
-    border-radius: 0px 10px 10px 0px;
-    padding: 10px;
-    opacity: 0%;
-   
-        
-   }
-
-
-   .check:hover{
-     opacity: 100%;
-     transition: all 0,8s ease-in-out;
-     
-         
-   }
-  
-    
-  // le mouvement du prix qui se décale sur le côté
-
-  .menu_prix_check{    
-    display: flex;
-    position: relative;
-    left: 36px;
-      
-}
-
- //  le mouvement du prix et l'apparition de la cloche
-
-
-  .menu_prix_check:hover{
-     left: 0px;    
-    
-     
-}
-
-
-
-
-  
-
-  
-  
-
-  
- 
-  
-
-
-  
