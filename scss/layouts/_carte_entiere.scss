@@ -83,10 +83,6 @@
 }
  
 
-
-
-
-
 .menu {
     position: relative;
     overflow: hidden;
@@ -104,6 +100,7 @@
     transition: transform 300ms ease-in-out;
 }
 
+
 .menu input[type=checkbox] {
     position: absolute;
     width: 100%;
@@ -119,7 +116,7 @@
 
 .menu_titre_description {
     flex-grow: 1;
-    font-size: small;
+    font-size: medium;
     display: flex;
     margin-left: 10px;
     overflow: hidden;

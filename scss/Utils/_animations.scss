@@ -1,0 +1,287 @@
+// bouton en haut de la page d'accueil
+
+.transition_top_rose {
+    font-size: 12px;
+    color: azure;
+    font-family: "Roboto" 300;
+    background: linear-gradient(#FF97DA, #9356DC);
+    border-radius: 10rem;
+    margin-top: 5px;   
+    box-shadow: 2px 2px 2px 2px;
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    cursor: pointer;
+    
+  }
+  // l'éclaircissement du bouton
+
+
+  boutton:hover {
+    
+    box-shadow: 5px 5px 5px 5px black;
+    background: #FF97DA;
+    
+
+    }
+  
+  boutton:active {     
+    transform: translateY(4);
+  }
+
+  
+
+// boutons des pages en bas des restaurants
+
+  .transition1_button_rose {
+    font-size: 12px;
+    color: azure;
+    font-family: "Roboto" 300;
+    background: linear-gradient(#FF97DA, #9356DC);
+    border-radius: 10rem;
+    margin-top: 0px; 
+    margin-bottom: 45px;  
+    box-shadow: 2px 2px 2px 2px;
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    cursor: pointer;
+  
+   
+  }
+  // éclaircissemnt des boutons
+
+
+  button:hover {
+    box-shadow: 5px 5px 5px 5px black;
+    background: #FF97DA;
+   
+  }
+  
+  button:active {    
+    transform: translateY(4px);
+
+  }
+ 
+
+  // les coeurs des restaurants de la page d'accueil 
+
+
+  .icone_coeur{
+    display: flex;
+    background-clip: text;
+    background-color:gray;
+    -webkit-background-clip: text;
+    -webkit-backgrourd-fill-color:transparant;
+    cursor: pointer;
+    opacity: 0,01;
+    overflow: hidden; 
+    transform-origin: 100%;
+    color: transparent;
+    
+    
+    
+  }
+  // le remplissage des coeurs
+
+
+  .icone_coeur:hover{
+    background-image: linear-gradient(#FF97DA, #9356DC);
+    font-weight: 900;      
+    opacity: 1;
+    transition: all 3s ease-in-out;
+   
+
+  }
+
+
+
+  // les coeurs du haut des pages des restaurants
+
+  .icone_coeur_restau{
+    display: flex;
+    color: transparent;
+    background-color: gray;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-backgrourd-fill-color:transparant;
+    cursor: pointer;
+    opacity: 0,1;
+    overflow: hidden; 
+    transform-origin: 100%;
+   
+  
+}
+  // le remplissage des coeurs des resaturants
+
+.icone_coeur_restau:hover{
+  background-image: linear-gradient(#FF97DA, #9356DC);
+  font-weight: 900;
+  opacity: 1;
+  transition: all 2s ease-in-out;
+ 
+  
+       
+ }
+
+//  le changement de couleur des trois tuiles choix
+    
+.ancre_Choix:hover {
+  background-color: linear-gradient(#FF97DA, #9356DC);
+  cursor: pointer;
+    
+}
+  
+.ancre_Choix:active {
+  box-shadow: 2px 2px 2px 2px;
+  transform: translateY(3px);
+}
+
+
+// le loading spinner  de la page d'accueil  
+
+.loader1{
+  width: 100%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: white;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
+}
+
+
+
+.loader2{
+  width: 100%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: transparent;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
+}
+
+.loader3{
+  width: 100%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: transparent;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
+}
+
+.loader4{
+  width: 100%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: transparent;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
+}
+
+.loader5{
+  width: 100%;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: rond 10s;
+  animation-fill-mode:forwards;     
+  background-color: transparent;
+  opacity: 0,5;
+  position: fixed;
+  z-index: 4;
+}
+
+//  le delay d'apparition et la disparition compléte du loading
+
+
+ @keyframes rond {
+  to{
+    transform:translateY(100%);
+    opacity: 0;
+    
+  }
+  from{
+    transform:translateY(0%);
+    opacity: 1;
+     
+      
+  }
+    
+   }
+
+  //  le delay des apparitions des menus 
+
+
+  @keyframes menu{
+  0% {
+    transform: translateY(70%);
+    opacity: 0; }
+
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1; } 
+  }
+
+
+  // les delays des apparitions menu par menu 
+
+  .apparition1{
+    animation: menu 1s forwards 200ms;
+  }
+  .apparition2{
+    animation: menu 1s forwards 300ms;
+  }
+  .apparition3{
+    animation: menu 1s forwards 400ms;
+  }
+  .apparition4{
+    animation: menu 1s forwards 500ms;
+  }
+  .apparition5{
+    animation: menu 1s forwards 600ms;
+  }
+  .apparition6{
+    animation: menu 1s forwards 700ms;
+  }
+  .apparition7{
+    animation: menu 1s forwards 800ms;
+  }
+  .apparition8{
+    animation: menu 1s forwards 900ms;
+  }
+  .apparition9{
+    animation: menu 1s forwards 1000ms;
+  }
+  .apparition10{
+    animation: menu 1S forwards 1100ms;
+  }
+
+
+
+ 
