@@ -1,71 +1,71 @@
 // bouton en haut de la page d'accueil
 
-.transition_top_rose {
-    font-size: 12px;
-    color: azure;
-    font-family: "Roboto" 300;
-    background: linear-gradient(#FF97DA, #9356DC);
-    border-radius: 10rem;
-    margin-top: 5px;   
-    box-shadow: 2px 2px 2px 2px;
-    border: none;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    cursor: pointer;
+// .transition_top_rose {
+//     font-size: 12px;
+//     color: azure;
+//     font-family: "Roboto" 300;
+//     background: linear-gradient(#FF97DA, #9356DC);
+//     border-radius: 10rem;
+//     margin-top: 5px;   
+//     box-shadow: 2px 2px 2px 2px;
+//     border: none;
+//     padding-left: 10%;
+//     padding-right: 10%;
+//     padding-top: 4%;
+//     padding-bottom: 4%;
+//     cursor: pointer;
     
-  }
-  // l'éclaircissement du bouton
+//   }
+//   // l'éclaircissement du bouton
 
 
-  boutton:hover {
+//   boutton:hover {
     
-    box-shadow: 5px 5px 5px 5px black;
-    background: #FF97DA;
+//     box-shadow: 5px 5px 5px 5px black;
+//     background: #FF97DA;
     
 
-    }
+//     }
   
-  boutton:active {     
-    transform: translateY(4);
-  }
+//   boutton:active {     
+//     transform: translateY(4);
+//   }
 
   
 
 // boutons des pages en bas des restaurants
 
-  .transition1_button_rose {
-    font-size: 12px;
-    color: azure;
-    font-family: "Roboto" 300;
-    background: linear-gradient(#FF97DA, #9356DC);
-    border-radius: 10rem;
-    margin-top: 0px; 
-    margin-bottom: 45px;  
-    box-shadow: 2px 2px 2px 2px;
-    border: none;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    cursor: pointer;
+  // .transition1_button_rose {
+  //   font-size: 12px;
+  //   color: azure;
+  //   font-family: "Roboto" 300;
+  //   background: linear-gradient(#FF97DA, #9356DC);
+  //   border-radius: 10rem;
+  //   margin-top: 0px; 
+  //   margin-bottom: 45px;  
+  //   box-shadow: 2px 2px 2px 2px;
+  //   border: none;
+  //   padding-left: 10%;
+  //   padding-right: 10%;
+  //   padding-top: 4%;
+  //   padding-bottom: 4%;
+  //   cursor: pointer;
   
    
-  }
-  // éclaircissemnt des boutons
+  // }
+  // // éclaircissemnt des boutons
 
 
-  button:hover {
-    box-shadow: 5px 5px 5px 5px black;
-    background: #FF97DA;
+  // button:hover {
+  //   box-shadow: 5px 5px 5px 5px black;
+  //   background: #FF97DA;
    
-  }
+  // }
   
-  button:active {    
-    transform: translateY(4px);
+  // button:active {    
+  //   transform: translateY(4px);
 
-  }
+  // }
  
 
   // les coeurs des restaurants de la page d'accueil 

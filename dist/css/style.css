@@ -749,51 +749,6 @@ h3 {
   border-radius: 3px;
   margin-left: 200px; }
 
-.transition_top_rose {
-  font-size: 12px;
-  color: azure;
-  font-family: "Roboto" 300;
-  background: linear-gradient(#FF97DA, #9356DC);
-  border-radius: 10rem;
-  margin-top: 5px;
-  box-shadow: 2px 2px 2px 2px;
-  border: none;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  cursor: pointer; }
-
-boutton:hover {
-  box-shadow: 5px 5px 5px 5px black;
-  background: #FF97DA; }
-
-boutton:active {
-  transform: translateY(4); }
-
-.transition1_button_rose {
-  font-size: 12px;
-  color: azure;
-  font-family: "Roboto" 300;
-  background: linear-gradient(#FF97DA, #9356DC);
-  border-radius: 10rem;
-  margin-top: 0px;
-  margin-bottom: 45px;
-  box-shadow: 2px 2px 2px 2px;
-  border: none;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  cursor: pointer; }
-
-button:hover {
-  box-shadow: 5px 5px 5px 5px black;
-  background: #FF97DA; }
-
-button:active {
-  transform: translateY(4px); }
-
 .icone_coeur {
   display: flex;
   background-clip: text;
