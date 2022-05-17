@@ -307,7 +307,8 @@ main {
   .titre {
     font-size: 20px; }
   .new {
-    font-size: 18px; }
+    font-size: 18px;
+    margin-left: 600px !important; }
   .condition_point {
     font-size: 16px; }
   .titre_resto {
@@ -373,7 +374,8 @@ main {
     display: flex;
     justify-content: space-around; }
   .new {
-    font-size: 20px; }
+    font-size: 20px;
+    margin-left: 380px !important; }
   h4 {
     font-size: 18px; }
   .name_city {
@@ -659,9 +661,9 @@ a {
   background-color: #e0c9f7; }
 
 .chiffre {
-  font-size: 18px;
-  width: 2rem;
-  height: 2rem;
+  font-size: 20px;
+  width: 38px;
+  height: 31px;
   border-radius: 50%;
   text-align: center;
   background-color: #9356DC;
@@ -695,7 +697,8 @@ a {
 
 .choix3 {
   font-size: 14px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: 10px; }
 
 h3 {
   margin-top: 23%;
